@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import subprocess
 import time
@@ -15,8 +16,9 @@ import time
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'results' / 'moe'
 MODELS = OUT / 'models'
-QUANTIZE = Path('/Applications/Ollama.app/Contents/Resources/llama-quantize')
-OLLAMA_ROOT = Path.home() / '.ollama' / 'models'
+QUANTIZE = Path(os.environ.get('LLAMA_QUANTIZE', '/Applications/Ollama.app/Contents/Resources/llama-quantize'))
+OLLAMA_ROOT = Path(os.environ.get('OLLAMA_MODELS', Path.home() / '.ollama' / 'models'))  # mesmo nome que o Ollama usa
+MANIFEST_DIRS = ('manifests/registry.ollama.ai/library', 'manifests-v2/ollama.com/library')  # layout antigo e novo
 THREADS = 8
 TIMEOUT_SECONDS = 3600
 
@@ -30,8 +32,12 @@ def sha256(path):
 
 
 def blob_of(tag):
-    name, version = tag.split(':')
-    manifest = json.loads((OLLAMA_ROOT / 'manifests/registry.ollama.ai/library' / name / version).read_text())
+    name, _, version = tag.partition(':')
+    paths = [OLLAMA_ROOT / d / name / (version or 'latest') for d in MANIFEST_DIRS]
+    found = next((m for m in paths if m.exists()), None)
+    if found is None:
+        raise SystemExit(f'{tag}: not in Ollama ({OLLAMA_ROOT}); run: ollama pull {tag}')
+    manifest = json.loads(found.read_text())
     digest = next(l['digest'] for l in manifest['layers'] if l['mediaType'] == 'application/vnd.ollama.image.model')
     return OLLAMA_ROOT / 'blobs' / digest.replace(':', '-'), digest.split(':', 1)[1]
 

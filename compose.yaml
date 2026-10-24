@@ -1,0 +1,42 @@
+# Usado pelo nwa.py fora do Mac. Um perfil por dispositivo: cpu, nvidia ou amd.
+# Os modelos do Ollama ficam no volume "ollama"; o corte e o JSON de cada etapa ficam em ./saida.
+x-nwa: &nwa
+  build:
+    context: .
+    args:
+      OLLAMA_IMAGE: ollama/ollama:0.40.1
+  image: nwa:local
+  volumes:
+    - ollama:/root/.ollama
+    - ./saida:/nwa/results/prune
+
+services:
+  nwa-cpu:
+    <<: *nwa
+    profiles: [cpu]
+
+  nwa-nvidia:
+    <<: *nwa
+    profiles: [nvidia]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  nwa-amd:
+    <<: *nwa
+    build:
+      context: .
+      args:
+        OLLAMA_IMAGE: ollama/ollama:0.40.1-rocm
+    image: nwa:rocm
+    profiles: [amd]
+    devices:
+      - /dev/kfd
+      - /dev/dri
+
+volumes:
+  ollama: {}

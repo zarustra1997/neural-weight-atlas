@@ -1,0 +1,5 @@
+.git
+saida
+results/prune/models
+**/*.gguf
+__pycache__
