@@ -5,14 +5,16 @@ ARG OLLAMA_IMAGE=ollama/ollama:0.40.1
 
 FROM ${OLLAMA_IMAGE} AS quantize
 ARG LLAMA_CPP_COMMIT=631109b34da437a3c4a5ebd75091d677671392e3
+# Mais tarefas em paralelo estouram a memória de um Docker Desktop de 8 GB.
+ARG BUILD_JOBS=2
 RUN apt-get update && apt-get install -y --no-install-recommends build-essential cmake curl ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 RUN curl -fsSL "https://github.com/ggml-org/llama.cpp/archive/${LLAMA_CPP_COMMIT}.tar.gz" | tar -xz -C /tmp \
     && cmake -S "/tmp/llama.cpp-${LLAMA_CPP_COMMIT}" -B /build -DBUILD_SHARED_LIBS=OFF -DGGML_NATIVE=OFF -DLLAMA_CURL=OFF \
-    && cmake --build /build --target llama-quantize -j
+    && cmake --build /build --target llama-quantize -j "${BUILD_JOBS}"
 
 FROM ${OLLAMA_IMAGE}
-RUN apt-get update && apt-get install -y --no-install-recommends python3 && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends python3 libgomp1 && rm -rf /var/lib/apt/lists/*
 COPY --from=quantize /build/bin/llama-quantize /usr/local/bin/llama-quantize
 WORKDIR /nwa
 COPY *.py ./

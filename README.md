@@ -31,9 +31,9 @@ python3 nwa.py test     # as 120 perguntas e as 30 novas
   os dois arquivos em `results/prune/models` (18 GB) podem ser apagados.
 - Versões fixas para sair o mesmo arquivo: Ollama 0.40.1 e o llama.cpp que ele traz (commit `631109b3`).
 
-**Conferido:** no Mac, o comando refaz o modelo final byte a byte (SHA-256 `ae3d8644…03df`, 8.289.949.408 bytes). A
-conferência no Docker está em andamento. Os perfis NVIDIA e AMD não foram
-testados aqui, por falta dessas placas.
+**Conferido:** no Mac, o comando refaz o modelo final byte a byte (SHA-256 `ae3d8644…03df`, 8.289.949.408 bytes). No
+Docker (Linux arm64, só processador), o corte e a conversão também saíram idênticos. Rodar o modelo no Docker não
+foi testado aqui (a máquina virtual do Docker neste Mac tem 8 GB), nem os perfis NVIDIA e AMD, por falta dessas placas.
 
 ## Resultados
 
@@ -174,8 +174,9 @@ python3 nwa.py test     # the 120 questions and the 30 new ones
 - Pinned versions so the same file comes out: Ollama 0.40.1 and the llama.cpp it bundles (commit `631109b3`).
 
 **Checked:** on a Mac, the command rebuilds the final model byte for byte (SHA-256 `ae3d8644…03df`, 8,289,949,408
-bytes). The Docker check is in progress. The NVIDIA and AMD
-profiles were not tested here, for lack of those cards.
+bytes). In Docker (Linux arm64, CPU only) the cut and the
+conversion also came out identical. Running the model in Docker was not tested here (Docker's VM on this Mac has
+8 GB), nor were the NVIDIA and AMD profiles, for lack of those cards.
 
 ## Results
 
