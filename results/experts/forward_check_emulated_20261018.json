@@ -1,0 +1,148 @@
+{
+ "mode": "llama.cpp CPU activation rounding emulated (Q8_0 for MXFP4, BF16 for BF16 weights)",
+ "forward_code_sha256": "e2e42b6402abd2c7296747111a5db1d9364402e71912e28e7f93fd80500d4811",
+ "reference_sha256": "b18f6e01b973ba9d0e581754650523820aa95d5e66fb5a9623844f6686f28b31",
+ "passed_strict_rule": false,
+ "checks": [
+  {
+   "name": "pt_curto",
+   "tokens": 13,
+   "numpy_top5": [
+    22471,
+    11,
+    319,
+    2443,
+    113886
+   ],
+   "reference_top5": [
+    22471,
+    11,
+    113886,
+    319,
+    2443
+   ],
+   "same_top1": true,
+   "same_top5_set": true,
+   "max_abs_logprob_error": 1.1856424661940332,
+   "top1_logprob_error": 0.29856462752163426,
+   "passed_strict_rule": false
+  },
+  {
+   "name": "en_curto",
+   "tokens": 5,
+   "numpy_top5": [
+    12650,
+    625,
+    25,
+    354,
+    723
+   ],
+   "reference_top5": [
+    12650,
+    625,
+    25,
+    354,
+    723
+   ],
+   "same_top1": true,
+   "same_top5_set": true,
+   "max_abs_logprob_error": 0.09261202458190132,
+   "top1_logprob_error": 0.02802667375756096,
+   "passed_strict_rule": true
+  },
+  {
+   "name": "codigo",
+   "tokens": 17,
+   "numpy_top5": [
+    165916,
+    18795,
+    350,
+    139341,
+    285
+   ],
+   "reference_top5": [
+    165916,
+    18795,
+    350,
+    139341,
+    285
+   ],
+   "same_top1": true,
+   "same_top5_set": true,
+   "max_abs_logprob_error": 0.045849190564734243,
+   "top1_logprob_error": 4.248222427933809e-06,
+   "passed_strict_rule": true
+  },
+  {
+   "name": "conta",
+   "tokens": 11,
+   "numpy_top5": [
+    220,
+    25,
+    392,
+    46352,
+    2381
+   ],
+   "reference_top5": [
+    220,
+    25,
+    392,
+    46352,
+    2381
+   ],
+   "same_top1": true,
+   "same_top5_set": true,
+   "max_abs_logprob_error": 0.04769465969864228,
+   "top1_logprob_error": 0.0070040290242804615,
+   "passed_strict_rule": true
+  },
+  {
+   "name": "pt_longo_512",
+   "tokens": 512,
+   "numpy_top5": [
+    6240,
+    425,
+    966,
+    293,
+    220
+   ],
+   "reference_top5": [
+    6240,
+    425,
+    966,
+    293,
+    220
+   ],
+   "same_top1": true,
+   "same_top5_set": true,
+   "max_abs_logprob_error": 0.08869566272540519,
+   "top1_logprob_error": 0.08869566272540519,
+   "passed_strict_rule": true
+  },
+  {
+   "name": "en_medio_128",
+   "tokens": 128,
+   "numpy_top5": [
+    335,
+    197,
+    833,
+    352,
+    16609
+   ],
+   "reference_top5": [
+    335,
+    197,
+    833,
+    352,
+    530
+   ],
+   "same_top1": true,
+   "same_top5_set": false,
+   "max_abs_logprob_error": 0.057058951060387386,
+   "top1_logprob_error": 0.00569984893045028,
+   "passed_strict_rule": false
+  }
+ ],
+ "seconds": 43.6,
+ "peak_rss_bytes": 353796096
+}

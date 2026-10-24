@@ -1,0 +1,302 @@
+[
+ {
+  "id": "H01",
+  "answer": "1776",
+  "thinking": "Compute 48*37 = 48*(30+7)=1440+336=1776.",
+  "generated": 33,
+  "tokens_per_second": 20.31591869199959,
+  "wall_seconds": 2.201,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H02",
+  "answer": "48",
+  "thinking": "Compute 840-264=576. 576/12=48.",
+  "generated": 26,
+  "tokens_per_second": 16.409593553301832,
+  "wall_seconds": 4.245,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H03",
+  "answer": "292",
+  "thinking": "Compute: 350 * (1-0.18)=350*0.82=287. Then +5 = 292. So answer 292.",
+  "generated": 43,
+  "tokens_per_second": 15.083718143538064,
+  "wall_seconds": 3.734,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H04",
+  "answer": "74",
+  "thinking": "Compute 7^2 + 5^2 = 49 + 25 = 74.",
+  "generated": 31,
+  "tokens_per_second": 9.841857228304418,
+  "wall_seconds": 4.453,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H05",
+  "answer": "61",
+  "thinking": "Compute: 3 notebooks at 18 each = 54. One pen 7. Total 61.",
+  "generated": 33,
+  "tokens_per_second": 20.543173970180025,
+  "wall_seconds": 2.89,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H06",
+  "answer": "10",
+  "thinking": "Solve 4x-9=31 => 4x=40 => x=10.",
+  "generated": 30,
+  "tokens_per_second": 23.910936543562535,
+  "wall_seconds": 1.872,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H07",
+  "answer": "22",
+  "thinking": "We have ratio 2:3, total parts 5 parts. Total volume 55 liters. Each part = 55/5=11 liters. Part A = 2 parts = 22 liters.",
+  "generated": 53,
+  "tokens_per_second": 23.89967906789448,
+  "wall_seconds": 2.804,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H08",
+  "answer": "1775",
+  "thinking": "Need to convert 1.5 liters to ml: 1 liter = 1000 ml, so 1.5 L = 1500 ml. Add 275 ml = 1775 ml.",
+  "generated": 54,
+  "tokens_per_second": 23.79429042782134,
+  "wall_seconds": 2.815,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H09",
+  "answer": "30",
+  "thinking": "Compute distance = speed * time. Speed 72 km/h. Time 25 minutes = 25/60 h = 0.4166667 h. Distance = 72 * 0.4166667 = 30 km.",
+  "generated": 59,
+  "tokens_per_second": 24.645470726402273,
+  "wall_seconds": 2.973,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H10",
+  "answer": "17:20",
+  "thinking": "We need to add 2h45 to 14:35. 14:35 + 2h = 16:35. +45 min = 17:20. So answer 17:20.",
+  "generated": 57,
+  "tokens_per_second": 21.566483414617537,
+  "wall_seconds": 3.265,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H11",
+  "answer": "55",
+  "thinking": "Compute difference: 08:10 to 09:05. From 08:10 to 09:10 is 60 min. Subtract 5 min gives 55.",
+  "generated": 48,
+  "tokens_per_second": 23.91393375242502,
+  "wall_seconds": 2.887,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H12",
+  "answer": "30",
+  "thinking": "Compute area: 7.5 * 4 = 30.",
+  "generated": 25,
+  "tokens_per_second": 22.269096195369453,
+  "wall_seconds": 1.741,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H13",
+  "answer": "pag",
+  "thinking": "We need first letter of each word: \"ponte atlas gal.\" Words: ponte, atlas, gal. First letters: p, a, g. Output \"pag\".",
+  "generated": 46,
+  "tokens_per_second": 22.12286171720538,
+  "wall_seconds": 2.676,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H14",
+  "answer": "ARIM",
+  "thinking": "Need to reverse \"MIRA\" letter by letter: A R I M.",
+  "generated": 28,
+  "tokens_per_second": 22.98797728787844,
+  "wall_seconds": 1.81,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H15",
+  "answer": "2",
+  "thinking": "Count r in \"arara\": a r a r a -> r appears 2 times.",
+  "generated": 30,
+  "tokens_per_second": 22.77665666012217,
+  "wall_seconds": 1.865,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H16",
+  "answer": "evidências",
+  "thinking": "We need last word in phrase \"o mapa guarda evidências\". That phrase ends with \"evidências\". So answer \"evidências\".",
+  "generated": 42,
+  "tokens_per_second": 21.511070775008026,
+  "wall_seconds": 2.5,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H17",
+  "answer": "LUA MAR SOL",
+  "thinking": "Need alphabetical order: LUA, MAR, SOL. So output \"LUA MAR SOL\".",
+  "generated": 32,
+  "tokens_per_second": 23.84957476953485,
+  "wall_seconds": 1.917,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H18",
+  "answer": "BNN",
+  "thinking": "We need to remove vowels from BANANA. Vowels: A, E, I, O, U. BANANA letters: B A N A N A. Remove A's: B N N. So answer \"BNN\".",
+  "generated": 59,
+  "tokens_per_second": 23.271334291533808,
+  "wall_seconds": 3.191,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H19",
+  "answer": "Verde",
+  "thinking": "Need to answer only color. Triangle => green.",
+  "generated": 22,
+  "tokens_per_second": 23.89294224207026,
+  "wall_seconds": 1.591,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H20",
+  "answer": "não",
+  "thinking": "We need to answer yes or no. The rule: if lamp is on, meter shows 1. Meter shows 0. So lamp cannot be on. So answer: não.",
+  "generated": 48,
+  "tokens_per_second": 23.45320036020207,
+  "wall_seconds": 2.685,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H21",
+  "answer": "Clara",
+  "thinking": "We have Bruno finishes before Clara; Clara before Dora. So order: Bruno, Clara, Dora. Second is Clara.",
+  "generated": 36,
+  "tokens_per_second": 17.322191314941975,
+  "wall_seconds": 5.815,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H22",
+  "answer": "LESTE",
+  "thinking": "We have a puzzle: exactly one prize in one of boxes NORTH, SOUTH, EAST. NORTH and SOUTH are empty. Which box has prize? Answer only name. So EAST.",
+  "generated": 48,
+  "tokens_per_second": 23.722224610918452,
+  "wall_seconds": 2.988,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H23",
+  "answer": "verdadeiro",
+  "thinking": "We have A implies B, B implies C, A true. So B must be true, then C true. So answer: verdadeiro.",
+  "generated": 41,
+  "tokens_per_second": 23.80959294306894,
+  "wall_seconds": 2.349,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H24",
+  "answer": "2",
+  "thinking": "We need count numbers >5 in set {2,4,6,8}. Those are 6 and 8: 2 numbers.",
+  "generated": 40,
+  "tokens_per_second": 22.216223841784938,
+  "wall_seconds": 2.384,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H25",
+  "answer": "Beto",
+  "thinking": "Need to answer only name. Beto has 5.",
+  "generated": 24,
+  "tokens_per_second": 24.86188703794442,
+  "wall_seconds": 1.587,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H26",
+  "answer": "12",
+  "thinking": "Compute 7+9-4=12.",
+  "generated": 21,
+  "tokens_per_second": 24.513809445987906,
+  "wall_seconds": 1.459,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H27",
+  "answer": "Beto",
+  "thinking": "We simulate: empty. ENTRA Ana -> [Ana]. ENTRA Beto -> [Ana, Beto]. SAI uma pessoa -> remove front: Ana removed. Queue [Beto]. ENTRA Caio -> [Beto, Caio]. Front is Beto.",
+  "generated": 68,
+  "tokens_per_second": 22.41000488076724,
+  "wall_seconds": 3.689,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H28",
+  "answer": "15",
+  "thinking": "Need to answer with number only. sum([3,5,7])=15.",
+  "generated": 29,
+  "tokens_per_second": 24.014972092946223,
+  "wall_seconds": 1.797,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H29",
+  "answer": "3",
+  "thinking": "Need to answer with number 3.",
+  "generated": 19,
+  "tokens_per_second": 21.982777072657708,
+  "wall_seconds": 1.463,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H30",
+  "answer": "Beta",
+  "thinking": "Compute totals: Alpha 18, Beta 19, Gamma 18. So Beta.",
+  "generated": 29,
+  "tokens_per_second": 19.1869750873669,
+  "wall_seconds": 2.232,
+  "exact": true,
+  "empty_answer": false
+ }
+]

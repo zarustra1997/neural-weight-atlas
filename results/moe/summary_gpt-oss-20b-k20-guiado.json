@@ -1,0 +1,83 @@
+{
+ "label": "gpt-oss-20b-k20-guiado",
+ "target": "ollama",
+ "model": "gpt-oss-20b-k20",
+ "url": "http://127.0.0.1:8793",
+ "ollama_ps": "NAME                      ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL              \ngpt-oss-20b-k20:latest    54abc745e0e0    8.4 GB    100% GPU     4096       llamacpp    4 minutes from now    \n",
+ "settings": {
+  "temperature": 0,
+  "seed": 20261017,
+  "answer_tokens": 1024,
+  "think": "low",
+  "num_gpu": null,
+  "num_ctx": 4096,
+  "speed_tokens": 256,
+  "speed_repeats": 3
+ },
+ "exact": 119,
+ "exact_wilson_95": [
+  0.954,
+  0.999
+ ],
+ "word_rule": 119,
+ "empty_answers": 0,
+ "vs_qwen_original": {
+  "lost_vs_original": 1,
+  "gained_vs_original": 12,
+  "exact_two_sided_p": 0.00341796875
+ },
+ "by_category": {
+  "matemática": "25/25",
+  "lógica": "19/20",
+  "fatos": "20/20",
+  "interpretação": "15/15",
+  "instruções": "20/20",
+  "português": "10/10",
+  "inglês": "10/10"
+ },
+ "questions_seconds": 147.4,
+ "speed_tokens_per_second_median": 29.626656206327006,
+ "speed_samples": [
+  {
+   "generated": 204,
+   "tokens_per_second": 28.497701744171103
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 29.140444535204786
+  },
+  {
+   "generated": 196,
+   "tokens_per_second": 27.877839308151678
+  },
+  {
+   "generated": 204,
+   "tokens_per_second": 30.248078728038635
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 30.51783642368151
+  },
+  {
+   "generated": 196,
+   "tokens_per_second": 30.582180169297335
+  },
+  {
+   "generated": 204,
+   "tokens_per_second": 29.626656206327006
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 30.43433963967339
+  },
+  {
+   "generated": 196,
+   "tokens_per_second": 28.052514306782296
+  }
+ ],
+ "ssd_bytes_read_during_questions": 169787392,
+ "ssd_bytes_read_during_speed": 83378176,
+ "ssd_bytes_read_per_generated_token_speed": 42366.9593495935,
+ "process_rss_peak_bytes": null,
+ "note": "vm_stat pageins are system-wide (other apps included); cached file pages are not re-read"
+}

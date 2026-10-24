@@ -1,0 +1,171 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "name": "pt_curto",
+      "tokens": 13,
+      "numpy_top5": [
+        22471,
+        11,
+        113886,
+        319,
+        8444
+      ],
+      "reference_top5": [
+        22471,
+        11,
+        113886,
+        319,
+        2443
+      ],
+      "same_top1": true,
+      "same_top5_set": false,
+      "max_abs_logprob_error": 0.45831367115731814,
+      "passed": false
+    },
+    {
+      "name": "en_curto",
+      "tokens": 5,
+      "numpy_top5": [
+        12650,
+        625,
+        25,
+        354,
+        723
+      ],
+      "reference_top5": [
+        12650,
+        625,
+        25,
+        354,
+        723
+      ],
+      "same_top1": true,
+      "same_top5_set": true,
+      "max_abs_logprob_error": 0.027973170280921167,
+      "passed": true
+    },
+    {
+      "name": "codigo",
+      "tokens": 17,
+      "numpy_top5": [
+        165916,
+        18795,
+        350,
+        139341,
+        285
+      ],
+      "reference_top5": [
+        165916,
+        18795,
+        350,
+        139341,
+        285
+      ],
+      "same_top1": true,
+      "same_top5_set": true,
+      "max_abs_logprob_error": 0.1195176471627617,
+      "passed": true
+    },
+    {
+      "name": "conta",
+      "tokens": 11,
+      "numpy_top5": [
+        220,
+        25,
+        392,
+        46352,
+        2381
+      ],
+      "reference_top5": [
+        220,
+        25,
+        392,
+        46352,
+        2381
+      ],
+      "same_top1": true,
+      "same_top5_set": true,
+      "max_abs_logprob_error": 0.04398934437142188,
+      "passed": true
+    },
+    {
+      "name": "pt_longo_512",
+      "tokens": 512,
+      "numpy_top5": [
+        6240,
+        425,
+        293,
+        966,
+        319
+      ],
+      "reference_top5": [
+        6240,
+        425,
+        966,
+        293,
+        220
+      ],
+      "same_top1": true,
+      "same_top5_set": false,
+      "max_abs_logprob_error": 0.6451481606498302,
+      "passed": false
+    },
+    {
+      "name": "en_medio_128",
+      "tokens": 128,
+      "numpy_top5": [
+        335,
+        197,
+        833,
+        352,
+        530
+      ],
+      "reference_top5": [
+        335,
+        197,
+        833,
+        352,
+        530
+      ],
+      "same_top1": true,
+      "same_top5_set": true,
+      "max_abs_logprob_error": 0.028418378129236643,
+      "passed": true
+    }
+  ],
+  "model_sha256": "8ecb5d4ad6172c63f9cbf1a07a04e525985a8a11a6e516da02b674c4010de716",
+  "forward_code_sha256": "e2e42b6402abd2c7296747111a5db1d9364402e71912e28e7f93fd80500d4811",
+  "reference_sha256": "b18f6e01b973ba9d0e581754650523820aa95d5e66fb5a9623844f6686f28b31",
+  "max_allowed_logprob_error": 0.15,
+  "peak_rss_bytes": 335527936,
+  "seconds": 39.75048874999629,
+  "application_read_bytes": 12439762176,
+  "calibration_performed": false,
+  "layer_timings": [
+    1.7364112919967738,
+    1.7258862090020557,
+    1.6603534999958356,
+    1.596345082994958,
+    1.6012254999950528,
+    1.6036555409955326,
+    1.6539644579970627,
+    1.6225952090026112,
+    1.6722959999970044,
+    1.6090958330023568,
+    1.6157835409976542,
+    1.5866047499948763,
+    1.622251166998467,
+    1.548679750005249,
+    1.6580804590048501,
+    1.6569750420021592,
+    1.636700082999596,
+    1.5663118340016808,
+    1.6856428330065683,
+    1.6703115419950336,
+    1.6742325000013807,
+    1.6067102079978213,
+    1.641306709003402,
+    1.6375060419959482
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "label": "final",
+ "model": "gpt-oss-20b-final",
+ "holdout_sha256": "7b14bf5f28de6f1a4e309ba32aa9f6a415d2e01e1342c35786195787960c2d61",
+ "exact": 28,
+ "n": 30,
+ "wilson_95": [
+  0.787,
+  0.982
+ ],
+ "empty_answers": 0,
+ "wrong_ids": [
+  "H13",
+  "H17"
+ ]
+}

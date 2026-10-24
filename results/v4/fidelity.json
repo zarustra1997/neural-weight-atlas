@@ -1,0 +1,47 @@
+{
+ "preregistration": "NWA_V4_PROVAS.md P1",
+ "model_sha256": "8ecb5d4ad6172c63f9cbf1a07a04e525985a8a11a6e516da02b674c4010de716",
+ "self_check_max_diff": 0.0,
+ "sequences": 160,
+ "tokens": 22861,
+ "positions": 3000,
+ "generated_positions": 519,
+ "variants": {
+  "K20_guiado": {
+   "kl_mean_nats": 0.28346617948618225,
+   "kl_median": 0.12844418539322788,
+   "kl_p95": 0.9511616651054597,
+   "top1_agreement": 0.7736666666666666,
+   "generated_only": {
+    "positions": 519,
+    "kl_mean_nats": 0.12593515705169267,
+    "top1_agreement": 0.9132947976878613
+   }
+  },
+  "K16_guiado": {
+   "kl_mean_nats": 0.5977320332574825,
+   "kl_median": 0.2848427329565313,
+   "kl_p95": 2.1239756195443142,
+   "top1_agreement": 0.6526666666666666,
+   "generated_only": {
+    "positions": 519,
+    "kl_mean_nats": 0.2274394546967654,
+    "top1_agreement": 0.859344894026975
+   }
+  },
+  "K20_aleatorio": {
+   "kl_mean_nats": 0.9153842260541566,
+   "kl_median": 0.6679651135871101,
+   "kl_p95": 2.9195568132235366,
+   "top1_agreement": 0.5703333333333334,
+   "generated_only": {
+    "positions": 519,
+    "kl_mean_nats": 0.3132775769900433,
+    "top1_agreement": 0.8497109826589595
+   }
+  }
+ },
+ "verdict": "NÃO ATINGIU O CRITÉRIO",
+ "seconds": 1507.0,
+ "peak_rss_bytes": 1248133120
+}

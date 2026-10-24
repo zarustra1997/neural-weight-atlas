@@ -1,0 +1,1082 @@
+[
+ {
+  "id": 1,
+  "category": "matemática",
+  "answer": "115",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.185
+ },
+ {
+  "id": 2,
+  "category": "matemática",
+  "answer": "643",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.191
+ },
+ {
+  "id": 3,
+  "category": "matemática",
+  "answer": "400",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.189
+ },
+ {
+  "id": 4,
+  "category": "matemática",
+  "answer": "16",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.166
+ },
+ {
+  "id": 5,
+  "category": "matemática",
+  "answer": "169",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.194
+ },
+ {
+  "id": 6,
+  "category": "matemática",
+  "answer": "256",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.197
+ },
+ {
+  "id": 7,
+  "category": "matemática",
+  "answer": "81",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.168
+ },
+ {
+  "id": 8,
+  "category": "matemática",
+  "answer": "15",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.172
+ },
+ {
+  "id": 9,
+  "category": "matemática",
+  "answer": "70",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.165
+ },
+ {
+  "id": 10,
+  "category": "matemática",
+  "answer": "47",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.165
+ },
+ {
+  "id": 11,
+  "category": "matemática",
+  "answer": "60",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.168
+ },
+ {
+  "id": 12,
+  "category": "matemática",
+  "answer": "60",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.176
+ },
+ {
+  "id": 13,
+  "category": "matemática",
+  "answer": "180",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.192
+ },
+ {
+  "id": 14,
+  "category": "matemática",
+  "answer": "240",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.19
+ },
+ {
+  "id": 15,
+  "category": "matemática",
+  "answer": "30",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.17
+ },
+ {
+  "id": 16,
+  "category": "matemática",
+  "answer": "15",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.174
+ },
+ {
+  "id": 17,
+  "category": "matemática",
+  "answer": "36",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.173
+ },
+ {
+  "id": 18,
+  "category": "matemática",
+  "answer": "63",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.17
+ },
+ {
+  "id": 19,
+  "category": "matemática",
+  "answer": "36 ÷ 4 = 9",
+  "exact": false,
+  "word_rule": true,
+  "eval_count": 10,
+  "wall_seconds": 0.327
+ },
+ {
+  "id": 20,
+  "category": "matemática",
+  "answer": "0,75",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.215
+ },
+ {
+  "id": 21,
+  "category": "matemática",
+  "answer": "30",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.167
+ },
+ {
+  "id": 22,
+  "category": "matemática",
+  "answer": "12",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.167
+ },
+ {
+  "id": 23,
+  "category": "matemática",
+  "answer": "9",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.189
+ },
+ {
+  "id": 24,
+  "category": "matemática",
+  "answer": "21",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.181
+ },
+ {
+  "id": 25,
+  "category": "matemática",
+  "answer": "180",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.188
+ },
+ {
+  "id": 26,
+  "category": "lógica",
+  "answer": "SIM",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.146
+ },
+ {
+  "id": 27,
+  "category": "lógica",
+  "answer": "NÃO",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 28,
+  "category": "lógica",
+  "answer": "Pedro",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 29,
+  "category": "lógica",
+  "answer": "Luís",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.157
+ },
+ {
+  "id": 30,
+  "category": "lógica",
+  "answer": "Terça",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 31,
+  "category": "lógica",
+  "answer": "Sábado",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 3,
+  "wall_seconds": 0.157
+ },
+ {
+  "id": 32,
+  "category": "lógica",
+  "answer": "segunda",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.162
+ },
+ {
+  "id": 33,
+  "category": "lógica",
+  "answer": "Dora",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 3,
+  "wall_seconds": 0.162
+ },
+ {
+  "id": 34,
+  "category": "lógica",
+  "answer": "SIM",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 35,
+  "category": "lógica",
+  "answer": "Cenoura",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.2
+ },
+ {
+  "id": 36,
+  "category": "lógica",
+  "answer": "mesa",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.156
+ },
+ {
+  "id": 37,
+  "category": "lógica",
+  "answer": "NÃO",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 38,
+  "category": "lógica",
+  "answer": "vermelha",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.181
+ },
+ {
+  "id": 39,
+  "category": "lógica",
+  "answer": "5",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.144
+ },
+ {
+  "id": 40,
+  "category": "lógica",
+  "answer": "16",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 3,
+  "wall_seconds": 0.162
+ },
+ {
+  "id": 41,
+  "category": "lógica",
+  "answer": "15",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.164
+ },
+ {
+  "id": 42,
+  "category": "lógica",
+  "answer": "Sul",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.158
+ },
+ {
+  "id": 43,
+  "category": "lógica",
+  "answer": "quinta",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 44,
+  "category": "lógica",
+  "answer": "NÃO",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 45,
+  "category": "lógica",
+  "answer": "2,7,9",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 6,
+  "wall_seconds": 0.227
+ },
+ {
+  "id": 46,
+  "category": "fatos",
+  "answer": "Roma",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.158
+ },
+ {
+  "id": 47,
+  "category": "fatos",
+  "answer": "Buenos Aires",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.203
+ },
+ {
+  "id": 48,
+  "category": "fatos",
+  "answer": "Ottawa",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.183
+ },
+ {
+  "id": 49,
+  "category": "fatos",
+  "answer": "Pacífico",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.199
+ },
+ {
+  "id": 50,
+  "category": "fatos",
+  "answer": "Martem",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 3,
+  "wall_seconds": 0.155
+ },
+ {
+  "id": 51,
+  "category": "fatos",
+  "answer": "Fe",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.136
+ },
+ {
+  "id": 52,
+  "category": "fatos",
+  "answer": "Na",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 53,
+  "category": "fatos",
+  "answer": "3",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.133
+ },
+ {
+  "id": 54,
+  "category": "fatos",
+  "answer": "1969",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.202
+ },
+ {
+  "id": 55,
+  "category": "fatos",
+  "answer": "Leonardo da Vinci",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.198
+ },
+ {
+  "id": 56,
+  "category": "fatos",
+  "answer": "Oxigênio",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 6,
+  "wall_seconds": 0.225
+ },
+ {
+  "id": 57,
+  "category": "fatos",
+  "answer": "Rússia",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.199
+ },
+ {
+  "id": 58,
+  "category": "fatos",
+  "answer": "Português",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.185
+ },
+ {
+  "id": 59,
+  "category": "fatos",
+  "answer": "24",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.156
+ },
+ {
+  "id": 60,
+  "category": "fatos",
+  "answer": "100",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.184
+ },
+ {
+  "id": 61,
+  "category": "fatos",
+  "answer": "2",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 62,
+  "category": "fatos",
+  "answer": "Luís de Camões",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 6,
+  "wall_seconds": 0.229
+ },
+ {
+  "id": 63,
+  "category": "fatos",
+  "answer": "Mercúrio",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.179
+ },
+ {
+  "id": 64,
+  "category": "fatos",
+  "answer": "Iene",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.157
+ },
+ {
+  "id": 65,
+  "category": "fatos",
+  "answer": "Lua",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.14
+ },
+ {
+  "id": 66,
+  "category": "interpretação",
+  "answer": "2",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.142
+ },
+ {
+  "id": 67,
+  "category": "interpretação",
+  "answer": "3",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 68,
+  "category": "interpretação",
+  "answer": "Recife",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.159
+ },
+ {
+  "id": 69,
+  "category": "interpretação",
+  "answer": "Quinta",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 70,
+  "category": "interpretação",
+  "answer": "Eva",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 71,
+  "category": "interpretação",
+  "answer": "100",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.184
+ },
+ {
+  "id": 72,
+  "category": "interpretação",
+  "answer": "Sol",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.136
+ },
+ {
+  "id": 73,
+  "category": "interpretação",
+  "answer": "32",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.162
+ },
+ {
+  "id": 74,
+  "category": "interpretação",
+  "answer": "Tom",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.141
+ },
+ {
+  "id": 75,
+  "category": "interpretação",
+  "answer": "18",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 76,
+  "category": "interpretação",
+  "answer": "30",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.16
+ },
+ {
+  "id": 77,
+  "category": "interpretação",
+  "answer": "30",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 78,
+  "category": "interpretação",
+  "answer": "Sara",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 79,
+  "category": "interpretação",
+  "answer": "4 - 1 + 3 = 6",
+  "exact": false,
+  "word_rule": true,
+  "eval_count": 11,
+  "wall_seconds": 0.336
+ },
+ {
+  "id": 80,
+  "category": "interpretação",
+  "answer": "23",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.162
+ },
+ {
+  "id": 81,
+  "category": "instruções",
+  "answer": "AZUL",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.157
+ },
+ {
+  "id": 82,
+  "category": "instruções",
+  "answer": "7",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.152
+ },
+ {
+  "id": 83,
+  "category": "instruções",
+  "answer": "asac",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.18
+ },
+ {
+  "id": 84,
+  "category": "instruções",
+  "answer": "1,2,3,4,5",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 10,
+  "wall_seconds": 0.317
+ },
+ {
+  "id": 85,
+  "category": "instruções",
+  "answer": "gato gato gato",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 7,
+  "wall_seconds": 0.251
+ },
+ {
+  "id": 86,
+  "category": "instruções",
+  "answer": "A",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.141
+ },
+ {
+  "id": 87,
+  "category": "instruções",
+  "answer": "a",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.14
+ },
+ {
+  "id": 88,
+  "category": "instruções",
+  "answer": "ONU",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 89,
+  "category": "instruções",
+  "answer": "dog",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 90,
+  "category": "instruções",
+  "answer": "10",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 91,
+  "category": "instruções",
+  "answer": "quinze",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.16
+ },
+ {
+  "id": 92,
+  "category": "instruções",
+  "answer": "brasil",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.158
+ },
+ {
+  "id": 93,
+  "category": "instruções",
+  "answer": "ok",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.138
+ },
+ {
+  "id": 94,
+  "category": "instruções",
+  "answer": "resultado=5",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.181
+ },
+ {
+  "id": 95,
+  "category": "instruções",
+  "answer": "A E I O U",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 6,
+  "wall_seconds": 0.227
+ },
+ {
+  "id": 96,
+  "category": "instruções",
+  "answer": "[sol]",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.185
+ },
+ {
+  "id": 97,
+  "category": "instruções",
+  "answer": "bom dia",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.183
+ },
+ {
+  "id": 98,
+  "category": "instruções",
+  "answer": "terça-feira",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.18
+ },
+ {
+  "id": 99,
+  "category": "instruções",
+  "answer": "sim",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.143
+ },
+ {
+  "id": 100,
+  "category": "instruções",
+  "answer": "a",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 101,
+  "category": "português",
+  "answer": "cidadãos",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 5,
+  "wall_seconds": 0.201
+ },
+ {
+  "id": 102,
+  "category": "português",
+  "answer": "papeis",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 4,
+  "wall_seconds": 0.184
+ },
+ {
+  "id": 103,
+  "category": "português",
+  "answer": "atriz",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.162
+ },
+ {
+  "id": 104,
+  "category": "português",
+  "answer": "Baixo",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 105,
+  "category": "português",
+  "answer": "livrinho",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 4,
+  "wall_seconds": 0.187
+ },
+ {
+  "id": 106,
+  "category": "português",
+  "answer": "fui",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 107,
+  "category": "português",
+  "answer": "eu fiz",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.161
+ },
+ {
+  "id": 108,
+  "category": "português",
+  "answer": "4",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 2,
+  "wall_seconds": 0.137
+ },
+ {
+  "id": 109,
+  "category": "português",
+  "answer": "Umna",
+  "exact": false,
+  "word_rule": false,
+  "eval_count": 3,
+  "wall_seconds": 0.16
+ },
+ {
+  "id": 110,
+  "category": "português",
+  "answer": "Triste",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.162
+ },
+ {
+  "id": 111,
+  "category": "inglês",
+  "answer": "63",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 3,
+  "wall_seconds": 0.163
+ },
+ {
+  "id": 112,
+  "category": "inglês",
+  "answer": "Berlin",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.14
+ },
+ {
+  "id": 113,
+  "category": "inglês",
+  "answer": "Green",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.138
+ },
+ {
+  "id": 114,
+  "category": "inglês",
+  "answer": "book",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.142
+ },
+ {
+  "id": 115,
+  "category": "inglês",
+  "answer": "children",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.14
+ },
+ {
+  "id": 116,
+  "category": "inglês",
+  "answer": "went",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 117,
+  "category": "inglês",
+  "answer": "7",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.142
+ },
+ {
+  "id": 118,
+  "category": "inglês",
+  "answer": "Cold",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.14
+ },
+ {
+  "id": 119,
+  "category": "inglês",
+  "answer": "cat",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.139
+ },
+ {
+  "id": 120,
+  "category": "inglês",
+  "answer": "god",
+  "exact": true,
+  "word_rule": true,
+  "eval_count": 2,
+  "wall_seconds": 0.142
+ }
+]

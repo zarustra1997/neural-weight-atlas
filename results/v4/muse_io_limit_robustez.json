@@ -1,0 +1,26 @@
+{
+ "robustness": "same test without the final model blob (possibly cached)",
+ "files": [
+  "sha256-a3de86cd1c13",
+  "sha256-e6a7edc1a4d7",
+  "sha256-d214b44b2401"
+ ],
+ "levels": [
+  {
+   "reads_in_flight": 1,
+   "bytes": 19568525312,
+   "seconds": 3.78,
+   "gb_per_s": 5.17,
+   "seconds_per_token": 0.95,
+   "tokens_per_s_no_cache": 1.06
+  },
+  {
+   "reads_in_flight": 8,
+   "bytes": 19568525312,
+   "seconds": 2.44,
+   "gb_per_s": 8.03,
+   "seconds_per_token": 0.61,
+   "tokens_per_s_no_cache": 1.64
+  }
+ ]
+}

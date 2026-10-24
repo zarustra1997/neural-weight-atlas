@@ -1,0 +1,1117 @@
+[
+ {
+  "id": 1,
+  "category": "matemática",
+  "question": "Quanto é 48 + 67? Responda só com o número.",
+  "accept": [
+   "115"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 2,
+  "category": "matemática",
+  "question": "Quanto é 1000 − 357? Responda só com o número.",
+  "accept": [
+   "643"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 3,
+  "category": "matemática",
+  "question": "Quanto é 25 × 16? Responda só com o número.",
+  "accept": [
+   "400"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 4,
+  "category": "matemática",
+  "question": "Quanto é 144 ÷ 9? Responda só com o número.",
+  "accept": [
+   "16"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 5,
+  "category": "matemática",
+  "question": "Quanto é 13 × 13? Responda só com o número.",
+  "accept": [
+   "169"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 6,
+  "category": "matemática",
+  "question": "Quanto é 2 elevado a 8? Responda só com o número.",
+  "accept": [
+   "256"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 7,
+  "category": "matemática",
+  "question": "Quanto é 3 elevado a 4? Responda só com o número.",
+  "accept": [
+   "81"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 8,
+  "category": "matemática",
+  "question": "Qual é a raiz quadrada de 225? Responda só com o número.",
+  "accept": [
+   "15"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 9,
+  "category": "matemática",
+  "question": "Quanto é 20% de 350? Responda só com o número.",
+  "accept": [
+   "70"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 10,
+  "category": "matemática",
+  "question": "Quanto é 7 × 6 + 5? Responda só com o número.",
+  "accept": [
+   "47"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 11,
+  "category": "matemática",
+  "question": "Quanto é (12 + 8) × 3? Responda só com o número.",
+  "accept": [
+   "60"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 12,
+  "category": "matemática",
+  "question": "Um produto custa 80 reais e tem desconto de 25%. Qual é o preço final em reais? Responda só com o número.",
+  "accept": [
+   "60"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 13,
+  "category": "matemática",
+  "question": "Quantos segundos há em 3 minutos? Responda só com o número.",
+  "accept": [
+   "180"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 14,
+  "category": "matemática",
+  "question": "Quantos minutos há em 4 horas? Responda só com o número.",
+  "accept": [
+   "240"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 15,
+  "category": "matemática",
+  "question": "João tem 6 anos. Ana tem 5 vezes a idade de João. Quantos anos Ana tem? Responda só com o número.",
+  "accept": [
+   "30"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 16,
+  "category": "matemática",
+  "question": "Qual é o próximo número da sequência 3, 6, 9, 12? Responda só com o número.",
+  "accept": [
+   "15"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 17,
+  "category": "matemática",
+  "question": "Qual é o próximo número da sequência 1, 4, 9, 16, 25? Responda só com o número.",
+  "accept": [
+   "36"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 18,
+  "category": "matemática",
+  "question": "Um retângulo tem lados 7 e 9. Qual é a sua área? Responda só com o número.",
+  "accept": [
+   "63"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 19,
+  "category": "matemática",
+  "question": "Um quadrado tem perímetro 36. Quanto mede cada lado? Responda só com o número.",
+  "accept": [
+   "9"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 20,
+  "category": "matemática",
+  "question": "Quanto é 0,5 + 0,25? Responda só com o número.",
+  "accept": [
+   "0,75",
+   "0.75"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 21,
+  "category": "matemática",
+  "question": "Quanto é um quarto de 120? Responda só com o número.",
+  "accept": [
+   "30"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 22,
+  "category": "matemática",
+  "question": "Se x + 7 = 19, quanto vale x? Responda só com o número.",
+  "accept": [
+   "12",
+   "x=12",
+   "x = 12"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 23,
+  "category": "matemática",
+  "question": "Se 3x = 27, quanto vale x? Responda só com o número.",
+  "accept": [
+   "9",
+   "x=9",
+   "x = 9"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 24,
+  "category": "matemática",
+  "question": "Quantos dias há em 3 semanas? Responda só com o número.",
+  "accept": [
+   "21"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 25,
+  "category": "matemática",
+  "question": "Um carro faz 12 km por litro. Quantos km ele faz com 15 litros? Responda só com o número.",
+  "accept": [
+   "180"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 26,
+  "category": "lógica",
+  "question": "Todos os gatos são mamíferos. Mimi é um gato. Mimi é um mamífero? Responda só SIM ou NÃO.",
+  "accept": [
+   "sim"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 27,
+  "category": "lógica",
+  "question": "Se chove, a rua fica molhada. A rua não está molhada. Choveu? Responda só SIM ou NÃO.",
+  "accept": [
+   "não",
+   "nao"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 28,
+  "category": "lógica",
+  "question": "Pedro é mais velho que Ana. Ana é mais velha que Luís. Quem é o mais velho? Responda só com o nome.",
+  "accept": [
+   "pedro"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 29,
+  "category": "lógica",
+  "question": "Pedro é mais velho que Ana. Ana é mais velha que Luís. Quem é o mais novo? Responda só com o nome.",
+  "accept": [
+   "luís",
+   "luis"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 30,
+  "category": "lógica",
+  "question": "Hoje é quarta-feira. Que dia da semana foi ontem? Responda com uma palavra.",
+  "accept": [
+   "terça",
+   "terça-feira"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 31,
+  "category": "lógica",
+  "question": "Hoje é sexta-feira. Que dia da semana será daqui a 2 dias? Responda com uma palavra.",
+  "accept": [
+   "domingo"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 32,
+  "category": "lógica",
+  "question": "O dia 1 de um mês caiu numa segunda-feira. Em que dia da semana cai o dia 8 desse mês? Responda com uma palavra.",
+  "accept": [
+   "segunda",
+   "segunda-feira"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 33,
+  "category": "lógica",
+  "question": "Numa fila, Bia está na frente de Caio e atrás de Dora. Quem está no meio? Responda só com o nome.",
+  "accept": [
+   "bia"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 34,
+  "category": "lógica",
+  "question": "Se A é maior que B e B é maior que C, então A é maior que C? Responda só SIM ou NÃO.",
+  "accept": [
+   "sim"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 35,
+  "category": "lógica",
+  "question": "Qual palavra não pertence ao grupo: maçã, banana, cenoura, uva? Responda com uma palavra.",
+  "accept": [
+   "cenoura"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 36,
+  "category": "lógica",
+  "question": "Qual palavra não pertence ao grupo: carro, ônibus, bicicleta, mesa? Responda com uma palavra.",
+  "accept": [
+   "mesa"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 37,
+  "category": "lógica",
+  "question": "Nenhum peixe voa. O salmão é um peixe. O salmão voa? Responda só SIM ou NÃO.",
+  "accept": [
+   "não",
+   "nao"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 38,
+  "category": "lógica",
+  "question": "Uma caixa só tem bolas vermelhas. Se eu tirar uma bola, de que cor ela será? Responda com uma palavra.",
+  "accept": [
+   "vermelha",
+   "vermelho"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 39,
+  "category": "lógica",
+  "question": "Se 5 máquinas fazem 5 peças em 5 minutos, quantos minutos 1 máquina leva para fazer 1 peça? Responda só com o número.",
+  "accept": [
+   "5"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 40,
+  "category": "lógica",
+  "question": "Maria tem 4 canetas. João tem o dobro de canetas de Maria. Quantas canetas os dois têm juntos? Responda só com o número.",
+  "accept": [
+   "12"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 41,
+  "category": "lógica",
+  "question": "Um relógio marca 10 horas. Que hora marcará 5 horas depois, no formato de 0 a 23? Responda só com o número.",
+  "accept": [
+   "15"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 42,
+  "category": "lógica",
+  "question": "Qual é o oposto de 'norte'? Responda com uma palavra.",
+  "accept": [
+   "sul"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 43,
+  "category": "lógica",
+  "question": "O dia 1 de um mês é um domingo. Em que dia da semana cai o dia 15? Responda com uma palavra.",
+  "accept": [
+   "domingo"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 44,
+  "category": "lógica",
+  "question": "Lucas é mais alto que Rafa. Rafa é mais alto que Téo. Téo é mais alto que Lucas? Responda só SIM ou NÃO.",
+  "accept": [
+   "não",
+   "nao"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 45,
+  "category": "lógica",
+  "question": "Coloque em ordem crescente e responda só com os números separados por vírgula: 9, 2, 7",
+  "accept": [
+   "2, 7, 9"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 46,
+  "category": "fatos",
+  "question": "Qual é a capital da Itália? Responda com uma palavra.",
+  "accept": [
+   "roma"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 47,
+  "category": "fatos",
+  "question": "Qual é a capital da Argentina? Responda só com o nome.",
+  "accept": [
+   "buenos aires"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 48,
+  "category": "fatos",
+  "question": "Qual é a capital do Canadá? Responda com uma palavra.",
+  "accept": [
+   "ottawa",
+   "otava"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 49,
+  "category": "fatos",
+  "question": "Qual é o maior oceano da Terra? Responda com uma palavra.",
+  "accept": [
+   "pacífico",
+   "pacifico"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 50,
+  "category": "fatos",
+  "question": "Qual planeta é conhecido como planeta vermelho? Responda com uma palavra.",
+  "accept": [
+   "marte"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 51,
+  "category": "fatos",
+  "question": "Qual é o símbolo químico do ferro? Responda só com o símbolo.",
+  "accept": [
+   "fe"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 52,
+  "category": "fatos",
+  "question": "Qual é o símbolo químico do sódio? Responda só com o símbolo.",
+  "accept": [
+   "na"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 53,
+  "category": "fatos",
+  "question": "Quantos lados tem um triângulo? Responda só com o número.",
+  "accept": [
+   "3"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 54,
+  "category": "fatos",
+  "question": "Em que ano o ser humano pisou na Lua pela primeira vez? Responda só com o número.",
+  "accept": [
+   "1969"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 55,
+  "category": "fatos",
+  "question": "Quem pintou a Mona Lisa? Responda só com o nome.",
+  "accept": [
+   "leonardo da vinci",
+   "da vinci"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 56,
+  "category": "fatos",
+  "question": "Qual gás as plantas absorvem do ar na fotossíntese? Responda só com o nome do gás.",
+  "accept": [
+   "dióxido de carbono",
+   "dioxido de carbono",
+   "gás carbônico",
+   "gas carbonico",
+   "co2",
+   "co₂"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 57,
+  "category": "fatos",
+  "question": "Qual é o maior país do mundo em área? Responda com uma palavra.",
+  "accept": [
+   "rússia",
+   "russia"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 58,
+  "category": "fatos",
+  "question": "Qual é o idioma oficial do Brasil? Responda com uma palavra.",
+  "accept": [
+   "português",
+   "portugues"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 59,
+  "category": "fatos",
+  "question": "Quantas horas tem um dia? Responda só com o número.",
+  "accept": [
+   "24"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 60,
+  "category": "fatos",
+  "question": "Qual é o ponto de ebulição da água ao nível do mar, em graus Celsius? Responda só com o número.",
+  "accept": [
+   "100"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 61,
+  "category": "fatos",
+  "question": "Qual é o menor número primo? Responda só com o número.",
+  "accept": [
+   "2"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 62,
+  "category": "fatos",
+  "question": "Quem escreveu 'Os Lusíadas'? Responda só com o nome.",
+  "accept": [
+   "luís de camões",
+   "luis de camoes",
+   "camões",
+   "camoes",
+   "luís vaz de camões",
+   "luis vaz de camoes"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 63,
+  "category": "fatos",
+  "question": "Qual metal é líquido à temperatura ambiente? Responda com uma palavra.",
+  "accept": [
+   "mercúrio",
+   "mercurio"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 64,
+  "category": "fatos",
+  "question": "Qual é a moeda do Japão? Responda com uma palavra.",
+  "accept": [
+   "iene",
+   "yen"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 65,
+  "category": "fatos",
+  "question": "Qual é o satélite natural da Terra? Responda com uma palavra.",
+  "accept": [
+   "lua"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 66,
+  "category": "interpretação",
+  "question": "Texto: 'Marta comprou 3 maçãs e 2 peras. Depois comeu uma maçã.' Quantas maçãs Marta tem agora? Responda só com o número.",
+  "accept": [
+   "2"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 67,
+  "category": "interpretação",
+  "question": "Texto: 'O trem saiu às 8h e chegou às 11h.' Quantas horas durou a viagem? Responda só com o número.",
+  "accept": [
+   "3"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 68,
+  "category": "interpretação",
+  "question": "Texto: 'Carlos mora em Recife e trabalha em Olinda.' Em que cidade Carlos mora? Responda com uma palavra.",
+  "accept": [
+   "recife"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 69,
+  "category": "interpretação",
+  "question": "Texto: 'A reunião foi adiada de terça para quinta.' Em que dia será a reunião? Responda com uma palavra.",
+  "accept": [
+   "quinta",
+   "quinta-feira"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 70,
+  "category": "interpretação",
+  "question": "Texto: 'Lia é mais rápida que Bruno, mas mais lenta que Eva.' Quem é a mais rápida? Responda só com o nome.",
+  "accept": [
+   "eva"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 71,
+  "category": "interpretação",
+  "question": "Texto: 'O livro tem 200 páginas. Ana leu metade.' Quantas páginas Ana leu? Responda só com o número.",
+  "accept": [
+   "100"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 72,
+  "category": "interpretação",
+  "question": "Texto: 'Choveu de manhã, mas à tarde fez sol.' Como estava o tempo à tarde? Responda com uma palavra.",
+  "accept": [
+   "sol",
+   "ensolarado",
+   "ensolarada"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 73,
+  "category": "interpretação",
+  "question": "Texto: 'Paulo tinha 50 reais e gastou 18.' Quantos reais sobraram? Responda só com o número.",
+  "accept": [
+   "32"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 74,
+  "category": "interpretação",
+  "question": "Texto: 'O cachorro de Júlia se chama Rex e o gato se chama Tom.' Qual é o nome do gato? Responda só com o nome.",
+  "accept": [
+   "tom"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 75,
+  "category": "interpretação",
+  "question": "Texto: 'A loja abre às 9h e fecha às 18h.' A que horas a loja fecha? Responda só com o número.",
+  "accept": [
+   "18"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 76,
+  "category": "interpretação",
+  "question": "Texto: 'Três amigos dividiram igualmente uma conta de 90 reais.' Quanto cada um pagou? Responda só com o número.",
+  "accept": [
+   "30"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 77,
+  "category": "interpretação",
+  "question": "Texto: 'Renata nasceu em 1990.' Quantos anos ela completou em 2020? Responda só com o número.",
+  "accept": [
+   "30"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 78,
+  "category": "interpretação",
+  "question": "Texto: 'O carro azul é de Pedro; o vermelho é de Sara.' De quem é o carro vermelho? Responda só com o nome.",
+  "accept": [
+   "sara"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 79,
+  "category": "interpretação",
+  "question": "Texto: 'Eu tinha 4 lápis, perdi 1 e ganhei 3.' Quantos lápis eu tenho? Responda só com o número.",
+  "accept": [
+   "6"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 80,
+  "category": "interpretação",
+  "question": "Texto: 'A festa começa às 20h e dura 3 horas.' A que horas a festa termina? Responda só com o número.",
+  "accept": [
+   "23"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 81,
+  "category": "instruções",
+  "question": "Escreva apenas a palavra AZUL em letras maiúsculas.",
+  "accept": [
+   "AZUL"
+  ],
+  "case_sensitive": true
+ },
+ {
+  "id": 82,
+  "category": "instruções",
+  "question": "Responda apenas com o número 7, sem mais nada.",
+  "accept": [
+   "7"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 83,
+  "category": "instruções",
+  "question": "Escreva a palavra 'casa' de trás para frente. Responda só com o resultado.",
+  "accept": [
+   "asac"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 84,
+  "category": "instruções",
+  "question": "Escreva os números de 1 a 5 separados por vírgula, sem mais nada.",
+  "accept": [
+   "1, 2, 3, 4, 5"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 85,
+  "category": "instruções",
+  "question": "Escreva a palavra 'gato' três vezes, separadas por um espaço, sem mais nada.",
+  "accept": [
+   "gato gato gato"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 86,
+  "category": "instruções",
+  "question": "Responda só com a letra A maiúscula.",
+  "accept": [
+   "A"
+  ],
+  "case_sensitive": true
+ },
+ {
+  "id": 87,
+  "category": "instruções",
+  "question": "Qual é a primeira letra do alfabeto? Responda só com a letra, em minúscula.",
+  "accept": [
+   "a"
+  ],
+  "case_sensitive": true
+ },
+ {
+  "id": 88,
+  "category": "instruções",
+  "question": "Escreva a sigla de 'Organização das Nações Unidas'. Responda só com a sigla.",
+  "accept": [
+   "ONU"
+  ],
+  "case_sensitive": true
+ },
+ {
+  "id": 89,
+  "category": "instruções",
+  "question": "Qual é a tradução de 'cachorro' para o inglês? Responda com uma única palavra.",
+  "accept": [
+   "dog"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 90,
+  "category": "instruções",
+  "question": "Escreva o número dez em algarismos. Responda só com o número.",
+  "accept": [
+   "10"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 91,
+  "category": "instruções",
+  "question": "Escreva o número 15 por extenso. Responda só com a palavra.",
+  "accept": [
+   "quinze"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 92,
+  "category": "instruções",
+  "question": "Escreva a palavra 'Brasil' toda em letras minúsculas. Responda só com a palavra.",
+  "accept": [
+   "brasil"
+  ],
+  "case_sensitive": true
+ },
+ {
+  "id": 93,
+  "category": "instruções",
+  "question": "Responda apenas 'ok', sem mais nada.",
+  "accept": [
+   "ok"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 94,
+  "category": "instruções",
+  "question": "Some 2 e 3 e responda exatamente no formato resultado=N, sem espaços.",
+  "accept": [
+   "resultado=5"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 95,
+  "category": "instruções",
+  "question": "Escreva as cinco vogais em ordem alfabética, sem espaços nem vírgulas.",
+  "accept": [
+   "aeiou"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 96,
+  "category": "instruções",
+  "question": "Escreva a palavra 'sol' entre colchetes, sem mais nada.",
+  "accept": [
+   "[sol]"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 97,
+  "category": "instruções",
+  "question": "Converta 'BOM DIA' para letras minúsculas. Responda só com o resultado.",
+  "accept": [
+   "bom dia"
+  ],
+  "case_sensitive": true
+ },
+ {
+  "id": 98,
+  "category": "instruções",
+  "question": "Qual dia da semana vem depois de segunda-feira? Responda com uma palavra.",
+  "accept": [
+   "terça",
+   "terça-feira"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 99,
+  "category": "instruções",
+  "question": "Escreva 'sim' se 10 for maior que 3; caso contrário, escreva 'não'. Responda só com a palavra.",
+  "accept": [
+   "sim"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 100,
+  "category": "instruções",
+  "question": "Escreva apenas o último caractere da palavra 'mesa'.",
+  "accept": [
+   "a"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 101,
+  "category": "português",
+  "question": "Qual é o plural de 'cidadão'? Responda com uma palavra.",
+  "accept": [
+   "cidadãos"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 102,
+  "category": "português",
+  "question": "Qual é o plural de 'papel'? Responda com uma palavra.",
+  "accept": [
+   "papéis"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 103,
+  "category": "português",
+  "question": "Qual é o feminino de 'ator'? Responda com uma palavra.",
+  "accept": [
+   "atriz"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 104,
+  "category": "português",
+  "question": "Qual é o antônimo de 'alto'? Responda com uma palavra.",
+  "accept": [
+   "baixo"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 105,
+  "category": "português",
+  "question": "Qual é o diminutivo de 'livro'? Responda com uma palavra.",
+  "accept": [
+   "livrinho"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 106,
+  "category": "português",
+  "question": "Complete com o verbo 'ir' no pretérito perfeito: 'Eu ___ ao mercado ontem.' Responda só com o verbo.",
+  "accept": [
+   "fui"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 107,
+  "category": "português",
+  "question": "Qual é o pretérito perfeito de 'eu faço'? Responda só com a forma verbal.",
+  "accept": [
+   "fiz",
+   "eu fiz"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 108,
+  "category": "português",
+  "question": "Quantas sílabas tem a palavra 'janela'? Responda só com o número.",
+  "accept": [
+   "3"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 109,
+  "category": "português",
+  "question": "Qual é o substantivo coletivo de 'abelhas'? Responda com uma palavra.",
+  "accept": [
+   "enxame"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 110,
+  "category": "português",
+  "question": "Qual é o antônimo de 'feliz'? Responda com uma palavra.",
+  "accept": [
+   "triste",
+   "infeliz"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 111,
+  "category": "inglês",
+  "question": "What is 9 times 7? Answer with only the number.",
+  "accept": [
+   "63"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 112,
+  "category": "inglês",
+  "question": "What is the capital of Germany? Answer with one word.",
+  "accept": [
+   "berlin"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 113,
+  "category": "inglês",
+  "question": "What color do you get by mixing blue and yellow? Answer with one word.",
+  "accept": [
+   "green"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 114,
+  "category": "inglês",
+  "question": "Translate 'livro' into English. Answer with one word.",
+  "accept": [
+   "book"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 115,
+  "category": "inglês",
+  "question": "What is the plural of 'child'? Answer with one word.",
+  "accept": [
+   "children"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 116,
+  "category": "inglês",
+  "question": "What is the past tense of 'go'? Answer with one word.",
+  "accept": [
+   "went"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 117,
+  "category": "inglês",
+  "question": "How many days are in a week? Answer with only the number.",
+  "accept": [
+   "7"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 118,
+  "category": "inglês",
+  "question": "What is the opposite of 'hot'? Answer with one word.",
+  "accept": [
+   "cold"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 119,
+  "category": "inglês",
+  "question": "Which animal says 'meow'? Answer with one word.",
+  "accept": [
+   "cat"
+  ],
+  "case_sensitive": false
+ },
+ {
+  "id": 120,
+  "category": "inglês",
+  "question": "Spell the word 'dog' backwards. Answer with only the result.",
+  "accept": [
+   "god"
+  ],
+  "case_sensitive": false
+ }
+]

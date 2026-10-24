@@ -1,0 +1,48 @@
+{
+ "label": "k20-arbitrario",
+ "model": "gpt-oss-20b-k20-arbitrario-teste",
+ "num_gpu": null,
+ "ollama_ps": "NAME                                       ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL              \ngpt-oss-20b-k20-arbitrario-teste:latest    55b5efc811c2    8.9 GB    100% GPU     4096       llamacpp    4 minutes from now    \n",
+ "speed_tokens_per_second_median": 21.572751653502383,
+ "speed_samples": [
+  {
+   "generated": 256,
+   "tokens_per_second": 29.435112593904908
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 29.294217618961415
+  },
+  {
+   "generated": 199,
+   "tokens_per_second": 27.172640346346025
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 24.990047908655125
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 20.387384191096686
+  },
+  {
+   "generated": 198,
+   "tokens_per_second": 21.572751653502383
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 21.442559946822453
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 21.33726828122553
+  },
+  {
+   "generated": 198,
+   "tokens_per_second": 21.485414767251104
+  }
+ ],
+ "ssd_bytes_read_during_speed": 26391412736,
+ "ssd_bytes_read_per_generated_token_speed": 12384520.289066166,
+ "note": "speed and memory only, no questions; vm_stat pageins are system-wide"
+}

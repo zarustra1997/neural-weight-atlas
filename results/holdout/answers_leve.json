@@ -1,0 +1,302 @@
+[
+ {
+  "id": "H01",
+  "answer": "1776",
+  "thinking": "Need to compute 48*37 = 1776.",
+  "generated": 24,
+  "tokens_per_second": 23.911646466306994,
+  "wall_seconds": 1.479,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H02",
+  "answer": "48",
+  "thinking": "We need compute (840-264)=576. Then 576 ÷ 12 = 48. So answer 48.",
+  "generated": 37,
+  "tokens_per_second": 19.61935274164547,
+  "wall_seconds": 2.765,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H03",
+  "answer": "292",
+  "thinking": "We need to compute: initial 350, minus 18% discount: 350 * 0.18 = 63. So new = 350 - 63 = 287. Then add fixed 5: 287 + 5 = 292. So answer 292.",
+  "generated": 69,
+  "tokens_per_second": 21.653702689013286,
+  "wall_seconds": 3.882,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H04",
+  "answer": "74",
+  "thinking": "Need compute 7^2 + 5^2. 7^2=49, 5^2=25 sum=74.",
+  "generated": 40,
+  "tokens_per_second": 21.535108687693548,
+  "wall_seconds": 2.475,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H05",
+  "answer": "61",
+  "thinking": "We need 3 cadernos? Actually \"Três cadernos custam R$18 cada e uma caneta custa R$7.\" Likely 3 cadernos? \"Três\" maybe \"Três\" means \"Três\" maybe \"Três\" is \"Três\" but likely \"Três\" means \"Três\" maybe \"Três\" is \"Três\" but maybe \"Três\" means \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" means \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" is \"Três\" but maybe \"Três\" I think it's 3 cadernos? So 3*18=54. plus one caneta 7 => total 61.",
+  "generated": 623,
+  "tokens_per_second": 19.575727066226634,
+  "wall_seconds": 32.551,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H06",
+  "answer": "10",
+  "thinking": "We need solve 4x-9=31 => 4x - 9 = 31 => 4x = 31+9 = 40 => x=10.",
+  "generated": 48,
+  "tokens_per_second": 23.70081278974861,
+  "wall_seconds": 2.611,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H07",
+  "answer": "22",
+  "thinking": "We need parts ratio 2:3, total 55. So A part = 2/(2+3)=2/5 of 55 = 22. So answer 22.",
+  "generated": 50,
+  "tokens_per_second": 23.373868295731793,
+  "wall_seconds": 2.708,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H08",
+  "answer": "1775",
+  "thinking": "User asks: \"Some 1,5 litro e 275 mililitros. Qual é o total em mililitros? Responda somente com o número.\" They want total in milliliters. 1.5 liters = 1500 ml. plus 275 ml = 1775 ml.",
+  "generated": 75,
+  "tokens_per_second": 22.62222334830623,
+  "wall_seconds": 4.066,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H09",
+  "answer": "30",
+  "thinking": "We need to compute distance: speed 72 km/h for 25 minutes. 25 minutes = 25/60 = 0.416666... hours. Distance = 72 * 0.416666 = 30 km. So answer 30.",
+  "generated": 64,
+  "tokens_per_second": 19.677002011973453,
+  "wall_seconds": 4.052,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H10",
+  "answer": "17:20",
+  "thinking": "We need to compute 14:35 + 2h45m = 17:20.",
+  "generated": 33,
+  "tokens_per_second": 24.77245003284226,
+  "wall_seconds": 1.919,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H11",
+  "answer": "55",
+  "thinking": "We need minutes between 08:10 and 09:05 same day. From 8:10 to 9:05. 8:10 to 9:00 is 50 minutes. Then 5 minutes to 9:05. Total 55 minutes.",
+  "generated": 67,
+  "tokens_per_second": 20.990836403373695,
+  "wall_seconds": 3.789,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H12",
+  "answer": "30",
+  "thinking": "Need area of rectangle 7.5 by 4. 7.5*4=30. So 30 cm².",
+  "generated": 38,
+  "tokens_per_second": 23.72667371390502,
+  "wall_seconds": 2.285,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H13",
+  "answer": "pag",
+  "thinking": "User wants first letters of each word in order: \"ponte atlas gal\". They want only the three letters together. So first letters: p, a, g => \"pag\".",
+  "generated": 48,
+  "tokens_per_second": 24.867270941350544,
+  "wall_seconds": 2.505,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H14",
+  "answer": "ARIM",
+  "thinking": "User wants \"Escreva MIRA ao contrário, letra por letra. Responda somente com a palavra resultante.\" They want the word \"MIRA\" reversed letter by letter. So \"MIRA\" reversed is \"ARIM\". They want only that word.",
+  "generated": 67,
+  "tokens_per_second": 20.44506776471938,
+  "wall_seconds": 3.923,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H15",
+  "answer": "2",
+  "thinking": "Need count of letter 'r' in word 'arara'. Word 'arara' has letters: a r a r a. That's 2 r's.",
+  "generated": 44,
+  "tokens_per_second": 26.36122790599586,
+  "wall_seconds": 2.233,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H16",
+  "answer": "evidências",
+  "thinking": "We need last word in phrase \"o mapa guarda evidências\". Count words: \"o\" (1), \"mapa\" (2), \"guarda\" (3), \"evidências\" (4). Last word is \"evidências\".",
+  "generated": 65,
+  "tokens_per_second": 25.33107717872595,
+  "wall_seconds": 3.118,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H17",
+  "answer": "MAR LUA SOL",
+  "thinking": "Need alphabetically order: LUA, SOL, MAR. Alphabetical order: MAR, LUA, SOL.",
+  "generated": 34,
+  "tokens_per_second": 22.547211539928128,
+  "wall_seconds": 2.032,
+  "exact": false,
+  "empty_answer": false
+ },
+ {
+  "id": "H18",
+  "answer": "BNN",
+  "thinking": "User wants to remove vowels from word BANANA. BANANA vowels: B A N A N A. Remove A's. Remaining letters: B N N. So output \"BNN\".",
+  "generated": 50,
+  "tokens_per_second": 22.293203783067508,
+  "wall_seconds": 2.686,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H19",
+  "answer": "VERDE",
+  "thinking": "We need to answer: \"Regra: todo cartão com triângulo vai para a caixa VERDE. O cartão 12 tem triângulo. Para qual caixa vai?\" The rule: all cards with triangle go to green box. So card 12 goes to green box. So answer: VERDE.",
+  "generated": 75,
+  "tokens_per_second": 22.99479275253188,
+  "wall_seconds": 3.945,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H20",
+  "answer": "Não.",
+  "thinking": "We need to interpret: \"Regra: se a lâmpada está ligada, o medidor mostra 1. O medidor mostra 0. A lâmpada está ligada?\" Means rule: if lamp is on, meter shows 1. Meter shows 0. Is lamp on? So answer no.",
+  "generated": 76,
+  "tokens_per_second": 23.546849555460266,
+  "wall_seconds": 3.826,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H21",
+  "answer": "Clara",
+  "thinking": "We have a puzzle: \"Bruno termina antes de Clara; Clara termina antes de Dora.\" Means Bruno finishes before Clara; Clara finishes before Dora. So order: Bruno < Clara < Dora. Who finishes second? The second is Clara.",
+  "generated": 62,
+  "tokens_per_second": 26.289945876634004,
+  "wall_seconds": 2.898,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H22",
+  "answer": "LESTE",
+  "thinking": "We have a puzzle: \"Há exatamente um prêmio em uma das caixas NORTE, SUL e LESTE. NORTE e SUL estão vazias. Qual caixa tem o prêmio? Responda somente com o nome.\" Likely answer: LESTE. But maybe trick: \"Leste\" is Portuguese for East. The boxes are NORTE (north), SUL (south), LESTE (east). The prize is in LESTE. So answer: LESTE.",
+  "generated": 115,
+  "tokens_per_second": 24.156380424761593,
+  "wall_seconds": 5.361,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H23",
+  "answer": "verdadeiro",
+  "thinking": "We have A implies B, B implies C, and A is true. So B must be true, then C must be true. So answer: verdadeiro.",
+  "generated": 45,
+  "tokens_per_second": 25.47672616142733,
+  "wall_seconds": 2.334,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H24",
+  "answer": "2",
+  "thinking": "We need count numbers in set {2,4,6,8} that are greater than 5. Those are 6 and 8 => 2.",
+  "generated": 44,
+  "tokens_per_second": 24.30364532585665,
+  "wall_seconds": 2.396,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H25",
+  "answer": "Beto",
+  "thinking": "We have a table: Rita=3, Beto=5, Caio=2. Who has more apples? Beto.",
+  "generated": 39,
+  "tokens_per_second": 19.40722376678289,
+  "wall_seconds": 2.64,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H26",
+  "answer": "12",
+  "thinking": "We need b+c−a = 7+9-4 = 12.",
+  "generated": 28,
+  "tokens_per_second": 22.85481073359861,
+  "wall_seconds": 1.754,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H27",
+  "answer": "Beto",
+  "thinking": "We have a FIFO queue empty. Order: ENTRA Ana; ENTRA Beto; SAI uma pessoa; ENTRA Caio. Initially empty. After Ana enters, queue: Ana. Then Beto enters: queue: Ana, Beto. Then SAI uma pessoa: someone leaves. Who leaves? Could be the front? In FIFO, the person at front leaves. So Ana leaves. Then Caio enters: queue: Beto, Caio. So front is Beto. Answer Beto.",
+  "generated": 116,
+  "tokens_per_second": 26.42234802195697,
+  "wall_seconds": 5.144,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H28",
+  "answer": "15",
+  "thinking": "The user asks in Portuguese: \"Em Python, qual é o resultado de sum([3, 5, 7])? Responda somente com o número.\" They want the result of sum([3,5,7]) in Python. sum of list returns sum of elements: 3+5+7=15. So answer: 15.",
+  "generated": 84,
+  "tokens_per_second": 23.922661453045368,
+  "wall_seconds": 4.101,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H29",
+  "answer": "3",
+  "thinking": "The JSON object: {\"ok\": true, \"count\": 3}. count is 3.",
+  "generated": 31,
+  "tokens_per_second": 26.98808606587705,
+  "wall_seconds": 1.693,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H30",
+  "answer": "Beta",
+  "thinking": "We have points: Alpha 12+6=18, Beta 9+10=19, Gamma 15+3=18. So Beta has highest.",
+  "generated": 44,
+  "tokens_per_second": 25.51153527259655,
+  "wall_seconds": 2.255,
+  "exact": true,
+  "empty_answer": false
+ }
+]

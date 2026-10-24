@@ -1,0 +1,241 @@
+{
+ "questions": 120,
+ "models": {
+  "qwen3:4b-instruct-2507-q4_K_M": {
+   "exact": 108,
+   "exact_wilson_95": [
+    0.833,
+    0.942
+   ],
+   "word_rule": 110,
+   "by_category": {
+    "matemática": "24/25",
+    "lógica": "16/20",
+    "fatos": "18/20",
+    "interpretação": "14/15",
+    "instruções": "19/20",
+    "português": "7/10",
+    "inglês": "10/10"
+   },
+   "vs_original": null,
+   "answers_differ_from_original": 0
+  },
+  "qwen3-4b-reduzido-teste": {
+   "exact": 104,
+   "exact_wilson_95": [
+    0.794,
+    0.916
+   ],
+   "word_rule": 104,
+   "by_category": {
+    "matemática": "25/25",
+    "lógica": "15/20",
+    "fatos": "15/20",
+    "interpretação": "14/15",
+    "instruções": "18/20",
+    "português": "7/10",
+    "inglês": "10/10"
+   },
+   "vs_original": {
+    "lost_vs_original": 8,
+    "gained_vs_original": 4,
+    "exact_two_sided_p": 0.3876953125
+   },
+   "answers_differ_from_original": 30
+  },
+  "qwen3-4b-iq2m-teste": {
+   "exact": 89,
+   "exact_wilson_95": [
+    0.657,
+    0.812
+   ],
+   "word_rule": 93,
+   "by_category": {
+    "matemática": "20/25",
+    "lógica": "13/20",
+    "fatos": "14/20",
+    "interpretação": "13/15",
+    "instruções": "18/20",
+    "português": "3/10",
+    "inglês": "8/10"
+   },
+   "vs_original": {
+    "lost_vs_original": 20,
+    "gained_vs_original": 1,
+    "exact_two_sided_p": 2.09808349609375e-05
+   },
+   "answers_differ_from_original": 39
+  }
+ },
+ "speed": {
+  "qwen3:4b-instruct-2507-q4_K_M": {
+   "median_tokens_per_second": 43.164104191403126,
+   "min": 40.01369218529466,
+   "max": 43.783151627553146,
+   "median_tokens_generated": 128,
+   "samples": [
+    {
+     "eval_count": 128,
+     "tokens_per_second": 40.01369218529466,
+     "prompt_tokens_per_second": 272.6506601450832
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.09008419735124,
+     "prompt_tokens_per_second": 275.02750275027506
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.71728034798955,
+     "prompt_tokens_per_second": 176.29222198716593
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.39121314374085,
+     "prompt_tokens_per_second": 80.47269171399518
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.172009427687556,
+     "prompt_tokens_per_second": 254.04838392447388
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.164104191403126,
+     "prompt_tokens_per_second": 161.5469738213129
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 40.39107395132308,
+     "prompt_tokens_per_second": 294.3196311193957
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 41.75159691703599,
+     "prompt_tokens_per_second": 255.0915449495988
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.783151627553146,
+     "prompt_tokens_per_second": 155.40015660761583
+    }
+   ]
+  },
+  "qwen3-4b-reduzido-teste": {
+   "median_tokens_per_second": 42.37260081699671,
+   "min": 34.434687351870316,
+   "max": 43.578414249596726,
+   "median_tokens_generated": 128,
+   "samples": [
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.578414249596726,
+     "prompt_tokens_per_second": 284.83880712960166
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 42.37260081699671,
+     "prompt_tokens_per_second": 275.07142983903884
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 42.38275869376338,
+     "prompt_tokens_per_second": 170.98839843716604
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 42.40558958677741,
+     "prompt_tokens_per_second": 300.0709258552021
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 41.12690284219029,
+     "prompt_tokens_per_second": 270.1925339701742
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 39.38804517439518,
+     "prompt_tokens_per_second": 168.55305628829313
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 42.58776573268592,
+     "prompt_tokens_per_second": 237.80698720166032
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 36.5351439541758,
+     "prompt_tokens_per_second": 231.90921128425336
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 34.434687351870316,
+     "prompt_tokens_per_second": 151.05283828283135
+    }
+   ]
+  },
+  "qwen3-4b-iq2m-teste": {
+   "median_tokens_per_second": 42.55764815796867,
+   "min": 34.52979057682015,
+   "max": 47.260078488652226,
+   "median_tokens_generated": 128,
+   "samples": [
+    {
+     "eval_count": 128,
+     "tokens_per_second": 47.260078488652226,
+     "prompt_tokens_per_second": 303.2363589583372
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 45.874913446940646,
+     "prompt_tokens_per_second": 288.36672806087324
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 45.52414113195066,
+     "prompt_tokens_per_second": 181.05446118192353
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 43.51836457985909,
+     "prompt_tokens_per_second": 295.3601603895174
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 40.086222960198455,
+     "prompt_tokens_per_second": 269.1042301448822
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 34.52979057682015,
+     "prompt_tokens_per_second": 136.0248109255128
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 42.55764815796867,
+     "prompt_tokens_per_second": 316.0011490950876
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 38.77150076604004,
+     "prompt_tokens_per_second": 211.3833334469803
+    },
+    {
+     "eval_count": 128,
+     "tokens_per_second": 37.217459873472265,
+     "prompt_tokens_per_second": 147.65487150334806
+    }
+   ]
+  }
+ },
+ "settings": {
+  "temperature": 0,
+  "seed": 20261017,
+  "num_predict": 64,
+  "num_ctx": 4096,
+  "speed_tokens": 128,
+  "speed_repeats": 3
+ },
+ "scoring": "exact = equality of the normalized first line; word_rule = older looser rule, comparison only",
+ "seconds": 173.0
+}

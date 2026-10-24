@@ -1,0 +1,229 @@
+{
+ "tokens": 686,
+ "layers": [
+  {
+   "layer": 0,
+   "routing_slots_same_count": 2743,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999981741874445,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 1,
+   "routing_slots_same_count": 2738,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999817717605781,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 2,
+   "routing_slots_same_count": 2736,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999738121029211,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 3,
+   "routing_slots_same_count": 2734,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999440512249583,
+   "top16_overlap": 15,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 4,
+   "routing_slots_same_count": 2734,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999495018746408,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 5,
+   "routing_slots_same_count": 2734,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999858636682883,
+   "top16_overlap": 15,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 6,
+   "routing_slots_same_count": 2736,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999632970202013,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 7,
+   "routing_slots_same_count": 2734,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999567281370384,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 8,
+   "routing_slots_same_count": 2730,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999125144116096,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 9,
+   "routing_slots_same_count": 2729,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999229389566413,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 10,
+   "routing_slots_same_count": 2730,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999604466674489,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 11,
+   "routing_slots_same_count": 2726,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999150481132627,
+   "top16_overlap": 15,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 12,
+   "routing_slots_same_count": 2727,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9998018522436231,
+   "top16_overlap": 15,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 13,
+   "routing_slots_same_count": 2720,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.999814383523217,
+   "top16_overlap": 15,
+   "top20_overlap": 20,
+   "top24_overlap": 23
+  },
+  {
+   "layer": 14,
+   "routing_slots_same_count": 2727,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9999081831317691,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 15,
+   "routing_slots_same_count": 2719,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9996349478259937,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 16,
+   "routing_slots_same_count": 2720,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9998387082125226,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 23
+  },
+  {
+   "layer": 17,
+   "routing_slots_same_count": 2723,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.999825883355961,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 18,
+   "routing_slots_same_count": 2721,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9998997418347411,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 19,
+   "routing_slots_same_count": 2721,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9998384495868076,
+   "top16_overlap": 16,
+   "top20_overlap": 19,
+   "top24_overlap": 23
+  },
+  {
+   "layer": 20,
+   "routing_slots_same_count": 2721,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9998284360645648,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 21,
+   "routing_slots_same_count": 2718,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9996440735406602,
+   "top16_overlap": 15,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 22,
+   "routing_slots_same_count": 2712,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.999722306339997,
+   "top16_overlap": 16,
+   "top20_overlap": 20,
+   "top24_overlap": 24
+  },
+  {
+   "layer": 23,
+   "routing_slots_same_count": 2717,
+   "routing_slots_total": 2744,
+   "corr_weight_sum": 0.9996432223660728,
+   "top16_overlap": 16,
+   "top20_overlap": 19,
+   "top24_overlap": 24
+  }
+ ],
+ "summary": {
+  "count_agreement": 0.9938350340136054,
+  "corr_min": 0.9996349478259937,
+  "top16_overlap_mean": 15.75,
+  "top20_overlap_mean": 19.916666666666668,
+  "top24_overlap_mean": 23.875,
+  "seconds": 78.4
+ }
+}

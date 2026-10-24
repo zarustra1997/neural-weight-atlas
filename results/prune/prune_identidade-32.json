@@ -1,0 +1,8 @@
+{
+ "check": "keep all experts -> same bytes as the source",
+ "source_sha256": "8ecb5d4ad6172c63f9cbf1a07a04e525985a8a11a6e516da02b674c4010de716",
+ "stream_sha256": "8ecb5d4ad6172c63f9cbf1a07a04e525985a8a11a6e516da02b674c4010de716",
+ "identical_to_source": true,
+ "stream_bytes": 13793422816,
+ "source_bytes": 13793422816
+}

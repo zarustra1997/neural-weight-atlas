@@ -1,0 +1,42 @@
+{
+ "preregistration": "NWA_V4_PROVAS.md P3",
+ "chunk_bytes": 9863168,
+ "reads_per_token": 496,
+ "gb_per_token_no_cache": 4.89,
+ "files": 4,
+ "file_bytes_total": 30851048480,
+ "levels": [
+  {
+   "reads_in_flight": 1,
+   "bytes": 19568525312,
+   "seconds": 3.66,
+   "gb_per_s": 5.35,
+   "seconds_per_token": 0.91,
+   "tokens_per_s_no_cache": 1.09
+  },
+  {
+   "reads_in_flight": 4,
+   "bytes": 19568525312,
+   "seconds": 2.69,
+   "gb_per_s": 7.27,
+   "seconds_per_token": 0.67,
+   "tokens_per_s_no_cache": 1.49
+  },
+  {
+   "reads_in_flight": 8,
+   "bytes": 19568525312,
+   "seconds": 2.6,
+   "gb_per_s": 7.54,
+   "seconds_per_token": 0.65,
+   "tokens_per_s_no_cache": 1.54
+  }
+ ],
+ "best_tokens_per_s_no_cache": 1.54,
+ "if_cache_hits": {
+  "30%_cache_hits": 2.2,
+  "50%_cache_hits": 3.08,
+  "80%_cache_hits": 7.7
+ },
+ "verdict": "CONFIRMADO",
+ "note": "routed experts only, dense part assumed resident; compute and dequantization not included (upper bound)"
+}

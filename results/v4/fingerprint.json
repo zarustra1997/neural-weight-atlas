@@ -1,0 +1,41 @@
+{
+ "modelo": "sha256-8ecb5d4ad6172c63f9cbf1a07a04e525985a8a11a6e516da02b674c4010de716",
+ "matrizes": 2304,
+ "semente_fixa_para_reproduzir": 20261021,
+ "tamanho_impressoes_bytes": 26542080,
+ "tamanho_especialistas_mxfp4_bytes": 10152345600,
+ "fracao_do_tamanho": 0.00261437908496732,
+ "tempo_para_calcular_todas_s": 4.3,
+ "conferencias": 256,
+ "matrizes_sorteadas": 64,
+ "tolerancia_relativa": 4.310108164398041e-08,
+ "ruido_honesto_max_calibracao": 4.3101081643980405e-09,
+ "margem_sobre_o_ruido": 10,
+ "conta_honesta": {
+  "aceitas": 1.0,
+  "residuo_max": 8.39254866655907e-09,
+  "residuo_mediano": 1.4082954362135734e-09
+ },
+ "um_peso_trocado_1_desvio": {
+  "detectadas": 0.98828125,
+  "residuo_min": 1.0209533109375153e-08
+ },
+ "um_peso_trocado_0_1_desvio": {
+  "detectadas": 0.84375,
+  "residuo_min": 3.986809153261671e-10
+ },
+ "especialista_errado": {
+  "detectadas": 1.0,
+  "residuo_min": 0.000126213718573526
+ },
+ "linearidade_erro_relativo_max": 1.2095663027541884e-14,
+ "tempo_por_multiplicacao_us": 436.3,
+ "tempo_por_conferencia_us": 12.8,
+ "sha256_das_matrizes_decodificadas_amostra": {
+  "0/gate/0": "f6f4566d2426611a",
+  "0/gate/1": "fe095fd770f68d38",
+  "0/gate/2": "3cde16dab9e80e99"
+ },
+ "segundos_total": 57.7,
+ "pico_rss_bytes": 307953664
+}

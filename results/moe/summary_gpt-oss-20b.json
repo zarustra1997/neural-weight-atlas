@@ -1,0 +1,81 @@
+{
+ "label": "gpt-oss-20b",
+ "target": "ollama",
+ "model": "gpt-oss:20b",
+ "url": "http://127.0.0.1:8793",
+ "settings": {
+  "temperature": 0,
+  "seed": 20261017,
+  "answer_tokens": 1024,
+  "think": "low",
+  "num_ctx": 4096,
+  "speed_tokens": 256,
+  "speed_repeats": 3
+ },
+ "exact": 117,
+ "exact_wilson_95": [
+  0.929,
+  0.991
+ ],
+ "word_rule": 117,
+ "empty_answers": 0,
+ "vs_qwen_original": {
+  "lost_vs_original": 2,
+  "gained_vs_original": 11,
+  "exact_two_sided_p": 0.0224609375
+ },
+ "by_category": {
+  "matemática": "25/25",
+  "lógica": "20/20",
+  "fatos": "18/20",
+  "interpretação": "15/15",
+  "instruções": "20/20",
+  "português": "9/10",
+  "inglês": "10/10"
+ },
+ "questions_seconds": 283.5,
+ "speed_tokens_per_second_median": 18.112097710302304,
+ "speed_samples": [
+  {
+   "generated": 239,
+   "tokens_per_second": 19.893826895571642
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 18.86645197725207
+  },
+  {
+   "generated": 215,
+   "tokens_per_second": 18.112097710302304
+  },
+  {
+   "generated": 239,
+   "tokens_per_second": 19.114362027776288
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 19.983093990248406
+  },
+  {
+   "generated": 215,
+   "tokens_per_second": 13.15044630473988
+  },
+  {
+   "generated": 239,
+   "tokens_per_second": 14.782938830920662
+  },
+  {
+   "generated": 256,
+   "tokens_per_second": 14.651389921846855
+  },
+  {
+   "generated": 215,
+   "tokens_per_second": 17.06615492544313
+  }
+ ],
+ "ssd_bytes_read_during_questions": 14790361088,
+ "ssd_bytes_read_during_speed": 13016629248,
+ "ssd_bytes_read_per_generated_token_speed": 6111093.543661972,
+ "process_rss_peak_bytes": null,
+ "note": "vm_stat pageins are system-wide (other apps included); cached file pages are not re-read"
+}

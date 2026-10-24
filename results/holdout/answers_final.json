@@ -1,0 +1,302 @@
+[
+ {
+  "id": "H01",
+  "answer": "1776",
+  "thinking": "Need to compute 48*37 = 1776.",
+  "generated": 24,
+  "tokens_per_second": 46.692879621267984,
+  "wall_seconds": 0.736,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H02",
+  "answer": "48",
+  "thinking": "Compute 840-264=576. Then 576/12=48.",
+  "generated": 27,
+  "tokens_per_second": 46.13216009568152,
+  "wall_seconds": 0.819,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H03",
+  "answer": "292",
+  "thinking": "Compute: 350 - 18% = 350 * 0.82 = 287. Then add 5 => 292. So answer 292.",
+  "generated": 44,
+  "tokens_per_second": 46.0905280822255,
+  "wall_seconds": 1.205,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H04",
+  "answer": "74",
+  "thinking": "Compute 7^2 + 5^2 = 49 + 25 = 74.",
+  "generated": 31,
+  "tokens_per_second": 46.6814742310733,
+  "wall_seconds": 0.895,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H05",
+  "answer": "61",
+  "thinking": "Need to compute: 3 notebooks at 18 each = 54. Plus a pen 7 => total 61.",
+  "generated": 36,
+  "tokens_per_second": 46.380157537935105,
+  "wall_seconds": 1.017,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H06",
+  "answer": "10",
+  "thinking": "We need solve 4x-9=31 => 4x-9 = 31 => 4x - 9 = 31 => 4x = 31+9 = 40 => x=10. So answer 10.",
+  "generated": 62,
+  "tokens_per_second": 45.401953748590344,
+  "wall_seconds": 1.599,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H07",
+  "answer": "22",
+  "thinking": "We need 2 parts A to 3 parts B ratio. Total 55 liters. So total parts = 5 parts. Each part = 55/5 =11 liters. A part = 2 parts = 22 liters.",
+  "generated": 59,
+  "tokens_per_second": 44.878011675889475,
+  "wall_seconds": 1.561,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H08",
+  "answer": "1775",
+  "thinking": "Need to convert 1.5 liters to ml: 1 liter = 1000 ml, so 1.5 L = 1500 ml. Add 275 ml = 1775 ml.",
+  "generated": 54,
+  "tokens_per_second": 44.343239667819866,
+  "wall_seconds": 1.458,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H09",
+  "answer": "30",
+  "thinking": "Need distance = speed * time. Speed 72 km/h, time 25 minutes = 25/60 h = 0.4166667 h. Distance = 72 * 0.4166667 = 30 km.",
+  "generated": 59,
+  "tokens_per_second": 45.12545641722232,
+  "wall_seconds": 1.543,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H10",
+  "answer": "17:20",
+  "thinking": "Need to add 2h45 to 14:35 => 17:20.",
+  "generated": 31,
+  "tokens_per_second": 46.346546584259514,
+  "wall_seconds": 0.906,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H11",
+  "answer": "55",
+  "thinking": "Need minutes between 08:10 and 09:05. From 8:10 to 9:05 is 55 minutes.",
+  "generated": 39,
+  "tokens_per_second": 45.87987003056305,
+  "wall_seconds": 1.086,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H12",
+  "answer": "30",
+  "thinking": "Need area = 7.5 * 4 = 30. So answer 30.",
+  "generated": 30,
+  "tokens_per_second": 46.52006643065486,
+  "wall_seconds": 0.888,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H13",
+  "answer": "p a g",
+  "thinking": "Need first letter of each word: ponte (p), atlas (a), gal (g). So answer \"p a g\" but they want only the three letters together. So \"p a g\" maybe \"p a g\" or \"p a g\" no spaces? They said \"Responda somente com as três letras juntas.\" So \"p a g\" maybe \"p a g\" but \"juntas\" means together, maybe \"p a g\" with spaces? Could be \"p a g\". I'll output \"p a g\".",
+  "generated": 125,
+  "tokens_per_second": 44.98181115484143,
+  "wall_seconds": 3.014,
+  "exact": false,
+  "empty_answer": false
+ },
+ {
+  "id": "H14",
+  "answer": "ARIM",
+  "thinking": "Need to write MIRA backwards letter by letter: M I R A -> A R I M.",
+  "generated": 32,
+  "tokens_per_second": 46.397589645217934,
+  "wall_seconds": 0.923,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H15",
+  "answer": "2",
+  "thinking": "Word \"arara\" has letters: a r a r a. r appears twice.",
+  "generated": 29,
+  "tokens_per_second": 46.44927338921127,
+  "wall_seconds": 0.855,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H16",
+  "answer": "evidências",
+  "thinking": "We need last word in phrase \"o mapa guarda evidências\". That phrase ends with \"evidências\". So answer: \"evidências\".",
+  "generated": 43,
+  "tokens_per_second": 45.71020368679368,
+  "wall_seconds": 1.171,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H17",
+  "answer": "MAR SOL LUA",
+  "thinking": "Alphabetical order: MAR, SOL, LUA.",
+  "generated": 23,
+  "tokens_per_second": 46.79276299058652,
+  "wall_seconds": 0.723,
+  "exact": false,
+  "empty_answer": false
+ },
+ {
+  "id": "H18",
+  "answer": "BNN",
+  "thinking": "Need to remove vowels from BANANA. Vowels: A, N? Actually vowels are A, E, I, O, U, maybe also N? No. So BANANA -> letters B, A, N, A, N, A. Remove A's: left B, N, N. So answer \"BNN\".",
+  "generated": 80,
+  "tokens_per_second": 45.23502706468213,
+  "wall_seconds": 1.999,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H19",
+  "answer": "VERDE",
+  "thinking": "Need to answer only color. The rule: all cards with triangle go to green box. Card 12 has triangle. So answer: VERDE.",
+  "generated": 42,
+  "tokens_per_second": 45.90204067357966,
+  "wall_seconds": 1.162,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H20",
+  "answer": "não",
+  "thinking": "We need to answer \"sim\" or \"não\". The rule: if lamp is on, meter shows 1. Meter shows 0. So lamp is not on. Answer \"não\".",
+  "generated": 50,
+  "tokens_per_second": 45.58005635518168,
+  "wall_seconds": 1.347,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H21",
+  "answer": "Clara",
+  "thinking": "We have Bruno finishes before Clara; Clara finishes before Dora. So order: Bruno, Clara, Dora. Who finishes second? Clara.",
+  "generated": 39,
+  "tokens_per_second": 45.80131156166031,
+  "wall_seconds": 1.089,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H22",
+  "answer": "LESTE",
+  "thinking": "We have a puzzle: exactly one prize in one of the boxes NORTH, SOUTH, EAST. NORTH and SOUTH are empty. Which box has the prize? Answer only with the name. So answer: EAST.",
+  "generated": 54,
+  "tokens_per_second": 45.47605853947743,
+  "wall_seconds": 1.439,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H23",
+  "answer": "verdadeiro",
+  "thinking": "We have A implies B, B implies C. If A is true, then B is true, then C is true. So answer: verdadeiro.",
+  "generated": 43,
+  "tokens_per_second": 45.83752622332896,
+  "wall_seconds": 1.179,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H24",
+  "answer": "2",
+  "thinking": "Need count numbers >5 in set {2,4,6,8}. Those are 6 and 8 => 2.",
+  "generated": 38,
+  "tokens_per_second": 45.42417211457889,
+  "wall_seconds": 1.078,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H25",
+  "answer": "Beto",
+  "thinking": "Need to answer with name only. Rita 3, Beto 5, Caio 2. Beto has most.",
+  "generated": 38,
+  "tokens_per_second": 45.635230397867154,
+  "wall_seconds": 1.077,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H26",
+  "answer": "12",
+  "thinking": "We need compute b+c-a = 7+9-4 = 12.",
+  "generated": 28,
+  "tokens_per_second": 46.28527599248856,
+  "wall_seconds": 0.846,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H27",
+  "answer": "Beto",
+  "thinking": "We need to simulate FIFO queue. Initially empty. Then ENTRA Ana -> queue: Ana. ENTRA Beto -> queue: Ana, Beto. SAI uma pessoa -> the first person leaves: Ana leaves. Queue: Beto. ENTRA Caio -> queue: Beto, Caio. So front is Beto.",
+  "generated": 80,
+  "tokens_per_second": 45.02722176976118,
+  "wall_seconds": 2.027,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H28",
+  "answer": "15",
+  "thinking": "Need sum of list: 3+5+7=15.",
+  "generated": 25,
+  "tokens_per_second": 46.76900973169555,
+  "wall_seconds": 0.773,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H29",
+  "answer": "3",
+  "thinking": "Need to answer with number only. count is 3.",
+  "generated": 23,
+  "tokens_per_second": 46.11353151458892,
+  "wall_seconds": 0.735,
+  "exact": true,
+  "empty_answer": false
+ },
+ {
+  "id": "H30",
+  "answer": "Beta",
+  "thinking": "We need to compute totals: Alpha 12+6=18, Beta 9+10=19, Gamma 15+3=18. So Beta has highest. Answer: Beta.",
+  "generated": 50,
+  "tokens_per_second": 45.01929076609327,
+  "wall_seconds": 1.359,
+  "exact": true,
+  "empty_answer": false
+ }
+]
