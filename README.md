@@ -88,6 +88,18 @@ O que este repositório acrescenta:
 3. **Uma avaliação pré-registrada**, com os resultados negativos e um controle aleatório do mesmo tamanho.
 4. **Uma impressão digital linear** para conferir contas com os pesos.
 
+## Dividir para conquistar: onde funciona e onde não basta
+
+- **Funciona na engenharia.** O modelo é dividido em 24 camadas × 32 especialistas, e cada camada escolhe os seus 20
+  sozinha, pelo mapa de uso. O processo também é dividido em etapas (corte → conversão → Ollama), e cada etapa se
+  confere sozinha: o corte compara cada tensor byte a byte e o arquivo final confere o SHA-256. Por isso a receita sai
+  idêntica no Mac e no Docker.
+- **Não basta para julgar o modelo.** Cada camada, sozinha, parecia bem cortada, mas o modelo inteiro mudou (P1: KL
+  0,28 e top-1 igual em 77%). As camadas não são independentes: o que uma faz muda o que chega à seguinte. [3] mostra o
+  mesmo no gpt-oss-20b.
+- **Regra usada aqui:** dividir para construir e conferir; testar o modelo inteiro para julgar. Por isso os resultados
+  vêm de testes do todo (150 perguntas, KL), e o próximo é matemática (GSM8K).
+
 ## Limites
 
 - Equivalência formal **não** demonstrada: sem margem de não inferioridade, e os testes estão perto do teto.
@@ -230,6 +242,18 @@ What this repository adds:
 2. **The measured effect on a 16 GB Mac.** The cut takes the model out of swap and puts it entirely on the GPU.
 3. **A pre-registered evaluation**, with the negative results and a random control of the same size.
 4. **A linear weight fingerprint** for checking computations against the weights.
+
+## Divide and conquer: where it works and where it is not enough
+
+- **It works for the engineering.** The model is split into 24 layers × 32 experts, and each layer picks its 20 on its
+  own, from the usage map. The process is also split into steps (cut → conversion → Ollama), each checked on its own:
+  the cut compares every tensor byte by byte and the final file checks its SHA-256. That is why the recipe comes out
+  identical on a Mac and in Docker.
+- **It is not enough to judge the model.** Each layer looked well cut on its own, yet the whole model changed (P1: KL
+  0.28, top-1 agreement 77%). Layers are not independent: what one does changes what reaches the next. [3] shows the
+  same on gpt-oss-20b.
+- **Rule used here:** split to build and to check; test the whole model to judge it. That is why the results come from
+  whole-model tests (150 questions, KL), and the next one is math (GSM8K).
 
 ## Limits
 
