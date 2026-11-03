@@ -22,6 +22,7 @@ import urllib.request
 import reduce_installed
 
 ROOT = Path(__file__).resolve().parent
+SAIDA = ROOT / 'saida'  # no Docker, a pasta ./saida do computador; o resto some quando o container fecha
 SOURCE_TAG = 'gpt-oss:20b'
 MODEL = 'gpt-oss-20b-nwa'
 LABEL = 'nwa'  # nome próprio: não sobrescreve os resultados publicados em results/prune
@@ -67,6 +68,16 @@ def step(*args):
         raise SystemExit(f'step failed: {" ".join(args)}')
 
 
+def keep(*paths):
+    """In Docker, copy each result JSON to ./saida on the host; on a Mac they already stay in results/."""
+    if not os.environ.get('NWA_IN_DOCKER'):
+        return
+    SAIDA.mkdir(exist_ok=True)
+    for path in paths:
+        if (ROOT / path).exists():
+            shutil.copy2(ROOT / path, SAIDA / Path(path).name)
+
+
 def build():
     ensure_ollama()
     if not reduce_installed.QUANTIZE.exists():
@@ -75,14 +86,17 @@ def build():
     step(sys.executable, '-B', 'prune_experts.py', '--label', LABEL, '--usage', 'results/experts/usage.json',
          '--k', str(EXPERTS_KEPT))
     step(sys.executable, '-B', 'build_final.py', '--label', LABEL, '--ollama-name', MODEL)
+    keep(f'results/prune/prune_{LABEL}.json', f'results/prune/final_{LABEL}.json')
     print(f'\nready: python3 nwa.py chat  (or: ollama run {MODEL})\n'
-          'the model is now inside Ollama; the two GGUF files in results/prune/models can be deleted')
+          'the model is now inside Ollama: on a Mac, the two GGUF files in results/prune/models (18 GB) can be deleted;\n'
+          'in Docker they go away with the container and the result JSON files are in ./saida')
 
 
 def test():
     ensure_ollama()
     step(sys.executable, '-B', 'bench_moe.py', '--target', 'ollama', '--model', MODEL, '--label', MODEL)
     step(sys.executable, '-B', 'bench_holdout.py', '--model', f'{MODEL}={MODEL}')
+    keep(*(f'results/{d}/{kind}_{MODEL}.json' for d in ('moe', 'holdout') for kind in ('summary', 'answers')))
 
 
 def chat():

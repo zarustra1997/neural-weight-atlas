@@ -19,7 +19,7 @@ COPY --from=quantize /build/bin/llama-quantize /usr/local/bin/llama-quantize
 WORKDIR /nwa
 COPY *.py ./
 COPY results/experts/usage.json results/experts/
-COPY results/bench120/questions.json results/bench120/
+COPY results/bench120/ results/bench120/
 COPY results/holdout/holdout_H01_H30.json results/holdout/
 ENV LLAMA_QUANTIZE=/usr/local/bin/llama-quantize OLLAMA_MODELS=/root/.ollama/models NWA_IN_DOCKER=1
 ENTRYPOINT ["python3", "-B", "nwa.py"]

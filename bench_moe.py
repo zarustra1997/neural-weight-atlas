@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+import shutil
 import statistics
 import subprocess
 import time
@@ -25,13 +26,24 @@ REASONING = 'low'
 SPEED_TOKENS = 256
 SPEED_REPEATS = 3
 PAGE_BYTES = 16384            # macOS arm64 page size (vm_stat)
+PROC_VMSTAT = Path('/proc/vmstat')  # Linux (e Docker): pgpgin em KiB
 TIMEOUT_SECONDS = 900
 
 
-def pageins():
+def disk_read_bytes():
+    """Bytes read from disk so far, whole system: /proc/vmstat on Linux, vm_stat on macOS, None elsewhere."""
+    if PROC_VMSTAT.exists():
+        return next(int(l.split()[1]) for l in PROC_VMSTAT.read_text().splitlines() if l.startswith('pgpgin ')) * 1024
+    if not shutil.which('vm_stat'):
+        return None
     out = subprocess.run(['vm_stat'], capture_output=True, text=True).stdout
     line = next(l for l in out.splitlines() if l.startswith('Pageins'))
-    return int(line.split(':')[1].strip().rstrip('.'))
+    return int(line.split(':')[1].strip().rstrip('.')) * PAGE_BYTES
+
+
+def read_since(before):
+    now = disk_read_bytes()
+    return None if before is None or now is None else now - before
 
 
 def rss_bytes(pid):
@@ -74,7 +86,7 @@ def run(args):
     questions = json.loads((bench120.OUT / 'questions.json').read_text())
     ask('Responda só: ok', 16)  # load / warm-up, not scored
     loaded = subprocess.run(['ollama', 'ps'], capture_output=True, text=True).stdout if args.target == 'ollama' else None
-    before, rss_peak, started = pageins(), 0, time.perf_counter()
+    before, rss_peak, started = disk_read_bytes(), 0, time.perf_counter()
     rows = []
     for q in ([] if args.speed_only else questions):
         r = ask(q['question'], ANSWER_TOKENS)
@@ -85,21 +97,21 @@ def run(args):
         if args.pid:
             rss_peak = max(rss_peak, rss_bytes(args.pid) or 0)
     questions_seconds = time.perf_counter() - started
-    read_q = (pageins() - before) * PAGE_BYTES
-    speed, before = [], pageins()
+    read_q = read_since(before)
+    speed, before = [], disk_read_bytes()
     for _ in range(SPEED_REPEATS):
         for prompt in bench120.SPEED_PROMPTS:
             s = ask(prompt, SPEED_TOKENS)
             speed.append({'generated': s['generated'], 'tokens_per_second': s['tokens_per_second']})
             if args.pid:
                 rss_peak = max(rss_peak, rss_bytes(args.pid) or 0)
-    read_s = (pageins() - before) * PAGE_BYTES
+    read_s = read_since(before)
     gen_s = sum(s['generated'] or 0 for s in speed)
     if args.speed_only:
         summary = {'label': args.label, 'model': args.model, 'num_gpu': args.num_gpu, 'ollama_ps': loaded,
                    'speed_tokens_per_second_median': statistics.median(s['tokens_per_second'] for s in speed if s['tokens_per_second']),
                    'speed_samples': speed, 'ssd_bytes_read_during_speed': read_s,
-                   'ssd_bytes_read_per_generated_token_speed': read_s / gen_s if gen_s else None,
+                   'ssd_bytes_read_per_generated_token_speed': read_s / gen_s if gen_s and read_s is not None else None,
                    'note': 'speed and memory only, no questions; vm_stat pageins are system-wide'}
         (OUT / f'speed_{args.label}.json').write_text(json.dumps(summary, ensure_ascii=False, indent=1) + '\n')
         print(json.dumps({x: v for x, v in summary.items() if x != 'speed_samples'}, ensure_ascii=False, indent=1))
@@ -118,7 +130,7 @@ def run(args):
                'speed_tokens_per_second_median': statistics.median(s['tokens_per_second'] for s in speed if s['tokens_per_second']),
                'speed_samples': speed,
                'ssd_bytes_read_during_questions': read_q, 'ssd_bytes_read_during_speed': read_s,
-               'ssd_bytes_read_per_generated_token_speed': read_s / gen_s if gen_s else None,
+               'ssd_bytes_read_per_generated_token_speed': read_s / gen_s if gen_s and read_s is not None else None,
                'process_rss_peak_bytes': rss_peak or None,
                'note': 'vm_stat pageins are system-wide (other apps included); cached file pages are not re-read'}
     (OUT / f'answers_{args.label}.json').write_text(json.dumps(rows, ensure_ascii=False, indent=1) + '\n')

@@ -1,5 +1,5 @@
 # Usado pelo nwa.py fora do Mac. Um perfil por dispositivo: cpu, nvidia ou amd.
-# Os modelos do Ollama ficam no volume "ollama"; o corte e o JSON de cada etapa ficam em ./saida.
+# Os modelos do Ollama ficam no volume "ollama"; o JSON de cada etapa fica em ./saida.
 x-nwa: &nwa
   build:
     context: .
@@ -8,7 +8,7 @@ x-nwa: &nwa
   image: nwa:local
   volumes:
     - ollama:/root/.ollama
-    - ./saida:/nwa/results/prune
+    - ./saida:/nwa/saida
 
 services:
   nwa-cpu:

@@ -27,8 +27,9 @@ python3 nwa.py test     # as 120 perguntas e as 30 novas
 | Outros | Docker, no processador | Docker |
 
 - O `nwa.py` escolhe sozinho. No Mac ele não usa Docker, porque o Docker não alcança a GPU da Apple.
-- Memória: o modelo pronto ocupa ~8,4 GB (GPU, RAM ou as duas). Disco: até ~45 GB livres durante a montagem; no fim,
-  os dois arquivos em `results/prune/models` (18 GB) podem ser apagados.
+- Memória: o modelo pronto ocupa ~8,4 GB (GPU, RAM ou as duas). Disco: até ~45 GB livres durante a montagem. No Mac,
+  os dois arquivos em `results/prune/models` (18 GB) podem ser apagados no fim; no Docker eles somem sozinhos, e os
+  resultados (JSON) ficam em `./saida`.
 - Versões fixas para sair o mesmo arquivo: Ollama 0.40.1 e o llama.cpp que ele traz (commit `631109b3`).
 
 **Conferido:** no Mac, o comando refaz o modelo final byte a byte (SHA-256 `ae3d8644…03df`, 8.289.949.408 bytes). No
@@ -181,8 +182,9 @@ python3 nwa.py test     # the 120 questions and the 30 new ones
 | Anything else | Docker, on the CPU | Docker |
 
 - `nwa.py` picks on its own. On a Mac it skips Docker, which cannot reach Apple's GPU.
-- Memory: the finished model takes ~8.4 GB (GPU, RAM or both). Disk: up to ~45 GB free while building; afterwards the
-  two files in `results/prune/models` (18 GB) can be deleted.
+- Memory: the finished model takes ~8.4 GB (GPU, RAM or both). Disk: up to ~45 GB free while building. On a Mac, the
+  two files in `results/prune/models` (18 GB) can be deleted afterwards; in Docker they go away on their own, and the
+  result JSON files are in `./saida`.
 - Pinned versions so the same file comes out: Ollama 0.40.1 and the llama.cpp it bundles (commit `631109b3`).
 
 **Checked:** on a Mac, the command rebuilds the final model byte for byte (SHA-256 `ae3d8644…03df`, 8,289,949,408
